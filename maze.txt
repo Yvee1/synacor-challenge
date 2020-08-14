@@ -1,0 +1,79 @@
+== Maze ==
+Maze of twisty little passages, all alike = M<TL>A
+Twisty maze of little passages, all alike = TM<L>A
+Maze of little twisty passages, all alike = M<LT>A
+Maze of alike little passages, all twisty = M<AL>T
+Little maze of twisty passages, all alike = LM<T>A
+Twisty alike of little passages, all maze = TA<L>M
+Maze of alike twisty passages, all little = M<AT>L
+
+
+                            ...
+                             | 
+                           START
+                             | 
+                           M<LT>A 
+                             | 
+                  LM<T>A   TM<L>A 
+                     |       | 
+                  LM<T>A---START ---M<AL>T
+                     |       | 
+                  TA<L>M   M<LT>A
+                             | 
+                           TM<L>A
+                             | 
+                           START
+                             | 
+                            ...
+
+
+
+
+             TM<L>A
+               |
+    LM<T>A---START ---M<AL>T
+               |
+             M<LT>A
+
+
+             LM<T>A
+               |
+             LM<T>A---START
+               |
+             TA<L>M
+
+
+             M<TL>A
+               |
+    M<LT>A---TA<L>M---TM<L>A
+               |
+             TM<L>A
+
+
+     START---M<TL>A
+
+            
+             M<AT>L 
+               |
+     START---M<AL>T---DARK
+               |
+             M<AL>T 
+
+
+             M<LT>A 
+               |
+             M<AT>L---TM<L>A
+               |
+             M<AT>L
+
+             M<LT>A
+               |
+    TM<L>A---TM<L>A
+               |
+             START
+
+             START
+               |
+             M<LT>A---M<LT>A
+               |
+             TM<L>A

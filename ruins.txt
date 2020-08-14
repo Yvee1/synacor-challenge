@@ -1,0 +1,17 @@
+== Ruins ==
+_ + _ * _^2 + _^3 - _ = 399
+9   2   5     7     3
+
+
+red: 2
+corroded: triangle=3?
+shiny: pentagon=5?
+concave: 7
+blue: 9
+
+TR
+||
+LQ---Start---DH
+             ||
+             KI
+

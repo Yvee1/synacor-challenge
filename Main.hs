@@ -1,32 +1,38 @@
 module Main where
 
-import qualified Data.ByteString as B
+import qualified Data.ByteString.Lazy as B
 import Data.List.Split
 import Data.List hiding (and, or)
 import Data.Bits ((.&.), (.|.))
-import Data.Char (chr)
+import Data.Char (chr, ord)
 import Data.Either
 import Data.Functor
 import Data.Maybe
+import Data.Word
 import Data.IntMap.Strict (IntMap)
 import Data.Vector (Vector, (//), (!))
 import Control.Monad.State.Lazy
 import Control.Monad.Trans.Maybe
 import Prelude hiding (mod, and, or, not)
 import qualified Prelude
+import qualified Data.Binary.Get as B
 import qualified Data.Vector as V
 import qualified Data.IntMap.Strict as M
 
 main :: IO ()
-main = test $> ()
-
-test :: IO VM
-test = csv "19, 65, 21, 19, 66, 1, 32768, 42, 9, 32768, 32768, 3, 4, 32769, 32768, 45, 2, 1337, 3, 32772"
+main = challenge $> ()
 
 csv :: String -> IO VM
-csv str = do
-  let ints = map read $ splitOn "," str
-      vm = VM { memory=M.fromDistinctAscList (zip [0..] ints)
+csv = start . map read . splitOn ","
+
+challenge :: IO VM
+challenge = do
+  bs <- B.readFile "challenge.bin"
+  start $ B.runGet getWord16s bs
+
+start :: [Word16] -> IO VM
+start ws = do
+  let vm = VM { memory=M.fromDistinctAscList (zip [0..] ws)
               , registers=V.replicate 8 (Value 0)
               , stack=[]
               , programCounter = Value 0 }
@@ -34,8 +40,14 @@ csv str = do
   putStrLn ""
   return vm'
 
--- challenge = do
-  -- words <- B.readFile "challenge.bin"
+getWord16s :: B.Get [Word16]
+getWord16s = do
+  empty <- B.isEmpty
+  if empty
+    then return []
+    else do w  <- B.getWord16le
+            ws <- getWord16s
+            return (w:ws)
 
 data VM = VM
   { memory         :: Memory
@@ -49,9 +61,9 @@ type Stack = [Value]
 instance Show Value where
   show (Value n) = show n
 
-newtype Id = Id Int
-newtype Value = Value Int
-type Memory = IntMap Int
+newtype Id = Id Word16
+newtype Value = Value Word16
+type Memory = IntMap Word16
 type ProgramCounter = Value
 
 type Compute a = MaybeT (StateT VM IO) a
@@ -72,17 +84,17 @@ incrementCounter = do
   vm <- getVM
   let old@(Value n) = programCounter vm 
   let mpc = if n + 1 < 32767 then Just (Value (n + 1)) else Nothing
-  maybe (return ()) (\pc -> putVM vm {programCounter = pc}) mpc
+  maybe (return ()) (\pc -> putVM vm {programCounter = pc }) mpc
   return $ (Just . const old) =<< mpc
 
-safeNext :: Compute (Maybe Int)
+safeNext :: Compute (Maybe Word16)
 safeNext = do
   vm <- getVM
   mpc <- incrementCounter
 
-  return ((\(Value pc) -> Just (M.findWithDefault 0 pc (memory vm))) =<< mpc)
+  return ((\(Value pc) -> Just (M.findWithDefault 0 (fromIntegral pc) (memory vm))) =<< mpc)
     
-next :: Compute Int
+next :: Compute Word16
 next =  fromMaybe (error "Unexpected end of program")
     <$> safeNext
 
@@ -110,7 +122,7 @@ nextValue' = do
   either return getRegister vOrR
 
 -- common arguments for operations
-opArgs :: Compute (Id, Int, Int)
+opArgs :: Compute (Id, Word16, Word16)
 opArgs = do
   i        <- nextId
   Value n1 <- nextValue'
@@ -120,7 +132,7 @@ opArgs = do
 quit :: Compute ()
 quit = mzero
 
-act :: Int -> Compute ()
+act :: Word16 -> Compute ()
 act 0  = halt
 act 1  = set
 act 2  = push
@@ -136,9 +148,16 @@ act 11 = mod
 act 12 = and
 act 13 = or
 act 14 = not
+act 15 = rmem
+act 16 = wmem
+act 17 = call
+act 18 = ret
 act 19 = out
+act 20 = in'
 act 21 = noop
-act n = error $ "unsupported operation: " <> show n
+act n = do
+  vm <- getVM
+  error $ "unsupported operation: " <> show n
 
 halt :: Compute ()
 halt = quit
@@ -177,11 +196,15 @@ gt = do
   let value = Value $ if n1 > n2 then 1 else 0
   setRegister i value
 
+jmpTo :: Value -> Compute ()
+jmpTo loc = do
+  vm <- getVM
+  putVM (vm {programCounter = loc })
+
 jmp :: Compute ()
 jmp = do
   loc <- nextValue'
-  vm <- getVM
-  putVM (vm {programCounter = loc })
+  jmpTo loc
 
 jt :: Compute ()
 jt = do
@@ -224,26 +247,60 @@ not = do
   Value n <- nextValue'
   setRegister i $ Value . fromBits . map flipBit . to15Bits $ n
 
+rmem :: Compute ()
+rmem = do
+  i <- nextId
+  v <- nextValue'
+  setRegister i . Value =<< readMemory v 
+
+wmem :: Compute ()
+wmem = do
+  i         <- nextValue'
+  (Value n) <- nextValue'
+  setMemory i n
+
+call :: Compute ()
+call = do
+  loc <- nextValue'
+  vm <- getVM
+  let pc = programCounter vm
+  putVM vm { programCounter = pc, stack = pushStack pc (stack vm) }
+  jmpTo loc
+
+ret :: Compute ()
+ret = do
+  vm <- getVM
+  let (v, s) = popStack $ stack vm
+  putVM vm { stack = s }
+  jmpTo v
+
 out :: Compute ()
 out = do
-  Value int <- nextValue'
-  liftIO . putChar $ chr int
+  Value word <- nextValue'
+  liftIO . putChar . chr $ fromIntegral word
   return ()
+
+-- in is a reserved keyword :/
+in' :: Compute ()
+in' = do
+  i <- nextId
+  input <- liftIO getChar
+  setRegister i $ Value (fromIntegral (ord input))
 
 noop :: Compute ()
 noop = return ()
 
-isId :: Int -> Bool
+isId :: Word16 -> Bool
 isId n = let i = n - 32768
   in i >= 0 && i < 8
 
-parseId :: Int -> Either Int Id
+parseId :: Word16 -> Either Word16 Id
 parseId n = if isId n then Right (Id (n - 32768)) else Left n
 
-isValue :: Int -> Bool
+isValue :: Word16 -> Bool
 isValue n = n >= 0 && n < 32768
 
-parseValue :: Int -> Either Int Value
+parseValue :: Word16 -> Either Word16 Value
 parseValue n = if isValue n
   then Right (Value n)
   else Left n
@@ -252,28 +309,28 @@ setRegister :: Id -> Value -> Compute ()
 setRegister (Id i) v = do
   vm <- getVM
   let rs  = registers vm
-      rs' = rs // [(i, v)]
+      rs' = rs // [(fromIntegral i, v)]
   putVM vm { registers=rs' }
 
 getRegister :: Id -> Compute Value
 getRegister (Id i) = do
   vm <- getVM
-  return (registers vm ! i)
+  return (registers vm ! fromIntegral i)
 
-to15Bits :: Int -> [Int]
+to15Bits :: Word16 -> [Word16]
 to15Bits = toNBits 15
 
-toNBits :: Int -> Int -> [Int]
+toNBits :: Word16 -> Word16 -> [Word16]
 toNBits n = toNBits' 0
   where
     toNBits' i x | i < n    = (x `rem` 2) : toNBits' (i+1) (x `div` 2)
                  | otherwise = []
 
-fromBits :: [Int] -> Int
+fromBits :: [Word16] -> Word16
 fromBits []     = 0
 fromBits (x:xs) = x + 2 * fromBits xs
 
-flipBit :: Int -> Int
+flipBit :: Word16 -> Word16
 flipBit 0 = 1
 flipBit _ = 0
 
@@ -285,3 +342,13 @@ safePopStack = uncons
 
 popStack :: Stack -> (Value, Stack)
 popStack = fromJust . safePopStack
+
+readMemory :: Value -> Compute Word16
+readMemory (Value i) = M.findWithDefault 0 (fromIntegral i) . memory <$> getVM
+
+setMemory :: Value -> Word16 -> Compute ()
+setMemory (Value i) n = do
+  vm <- getVM
+  let m  = memory vm
+      m' = M.insert (fromIntegral i) n m
+  putVM vm { memory = m' }

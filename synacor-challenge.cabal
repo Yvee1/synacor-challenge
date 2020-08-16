@@ -4,11 +4,10 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: b3c8ca42594eec353d175e30b023ceaf0e91776b27edd7879ed5f4367e5c473b
+-- hash: e79088d72621b8c1622eab2d7a876a0a027e3e92ff7255026430a53cb61f618e
 
 name:           synacor-challenge
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/Yvee1/synacor-challenge#readme>
 homepage:       https://github.com/Yvee1/synacor-challenge#readme
 bug-reports:    https://github.com/Yvee1/synacor-challenge/issues
 author:         Steven van den Broek
@@ -17,9 +16,6 @@ copyright:      2020 Steven van den Broek
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
-extra-source-files:
-    README.md
-    ChangeLog.md
 
 source-repository head
   type: git
@@ -52,28 +48,6 @@ executable synacor-challenge-exe
       Paths_synacor_challenge
   hs-source-dirs:
       app
-  ghc-options: -threaded -rtsopts -with-rtsopts=-N
-  build-depends:
-      base >=4.7 && <5
-    , binary
-    , brick
-    , bytestring
-    , containers
-    , microlens-platform
-    , mtl
-    , split
-    , synacor-challenge
-    , transformers
-    , vector
-  default-language: Haskell2010
-
-test-suite synacor-challenge-test
-  type: exitcode-stdio-1.0
-  main-is: Spec.hs
-  other-modules:
-      Paths_synacor_challenge
-  hs-source-dirs:
-      test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5

@@ -1,0 +1,3176 @@
+
+noop 
+noop 
+out W 
+out e 
+out l 
+out c 
+out o 
+out m 
+out e 
+out   
+out t 
+out o 
+out   
+out t 
+out h 
+out e 
+out   
+out S 
+out y 
+out n 
+out a 
+out c 
+out o 
+out r 
+out   
+out C 
+out h 
+out a 
+out l 
+out l 
+out e 
+out n 
+out g 
+out e 
+out ! 
+out 
+mult 
+out P 
+out l 
+out e 
+out a 
+out s 
+out e 
+out   
+out r 
+out e 
+out c 
+out o 
+out r 
+out d 
+out   
+out y 
+out o 
+out u 
+out r 
+out   
+out p 
+out r 
+out o 
+out g 
+out r 
+out e 
+out s 
+out s 
+out   
+out b 
+out y 
+out   
+out p 
+out u 
+out t 
+out t 
+out i 
+out n 
+out g 
+out   
+out c 
+out o 
+out d 
+out e 
+out s 
+out   
+out l 
+out i 
+out k 
+out e 
+out 
+mult 
+out t 
+out h 
+out i 
+out s 
+out   
+out o 
+out n 
+out e 
+out   
+out i 
+out n 
+out t 
+out o 
+out   
+out t 
+out h 
+out e 
+out   
+out c 
+out h 
+out a 
+out l 
+out l 
+out e 
+out n 
+out g 
+out e 
+out   
+out w 
+out e 
+out b 
+out s 
+out i 
+out t 
+out e 
+out : 
+out   
+out H 
+out n 
+out F 
+out E 
+out s 
+out G 
+out R 
+out N 
+out X 
+out i 
+out m 
+out A 
+out 
+mult 
+out 
+mult 
+out E 
+out x 
+out e 
+out c 
+out u 
+out t 
+out i 
+out n 
+out g 
+out   
+out s 
+out e 
+out l 
+out f 
+out - 
+out t 
+out e 
+out s 
+out t 
+out . 
+out . 
+out . 
+out 
+mult 
+out 
+mult 
+jmp ś 
+out j 
+out m 
+out p 
+out   
+out f 
+out a 
+out i 
+out l 
+out s 
+out 
+mult 
+halt 
+noop 
+noop 
+noop 
+noop 
+noop 
+noop 
+noop 
+noop 
+noop 
+jmp Ŧ 
+jmp Ű 
+jmp ƍ 
+jmp Ǥ 
+jmp ƨ 
+jmp ǅ 
+noop 
+noop 
+noop 
+noop 
+out j 
+out m 
+out p 
+out   
+out l 
+out a 
+out n 
+out d 
+out s 
+out   
+out - 
+out 2 
+out 
+mult 
+halt 
+noop 
+noop 
+out j 
+out m 
+out p 
+out   
+out l 
+out a 
+out n 
+out d 
+out s 
+out   
+out - 
+out 1 
+out 
+mult 
+halt 
+noop 
+noop 
+out j 
+out m 
+out p 
+out   
+out l 
+out a 
+out n 
+out d 
+out s 
+out   
+out + 
+out 1 
+out 
+mult 
+halt 
+noop 
+noop 
+noop 
+noop 
+out j 
+out m 
+out p 
+out   
+out l 
+out a 
+out n 
+out d 
+out s 
+out   
+out + 
+out 2 
+out 
+mult 
+halt 
+jt 
+halt в 
+jf 
+set в 
+jt 
+set ǯ 
+jmp в 
+jf 
+halt Ǵ 
+jmp в 
+jt 耀 х 
+jt 老 х 
+jt 耂 х 
+jt 考 х 
+jt 耄 х 
+jt 者 х 
+jt 耆 х 
+jt 耇 х 
+set 耀 
+set 
+jf 耀 ў 
+set 耀 
+halt 
+jt 耀 ў 
+add 耀 
+set 
+set 
+jt 耀 ȴ 
+out n 
+out o 
+out   
+out a 
+out d 
+out d 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+eq 老 耀 
+push 
+jt 老 Ɏ 
+out n 
+out o 
+out   
+out e 
+out q 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+push 耀 
+push 老 
+pop 耀 
+pop 老 
+eq 耂 老 
+push 
+jf 耂 ҆ 
+eq 耂 耀 
+set 
+jf 耂 ҆ 
+gt 耂 老 耀 
+jf 耂 ѳ 
+gt 耂 耀 老 
+jt 耂 ѳ 
+gt 耂 * * 
+jt 耂 ѳ 
+and 耀 烰 䲪 
+eq 老 耀 䂠 
+jf 老 ҙ 
+or 老 烰 䲪 
+eq 耀 老 糺 
+jt 耀 ʬ 
+out n 
+out o 
+out   
+out b 
+out i 
+out t 
+out w 
+out i 
+out s 
+out e 
+out   
+out o 
+out r 
+out 
+mult 
+halt 
+not 耀 
+halt 
+eq 老 耀 翿 
+jf 老 Ҹ 
+not 耀 啕 
+eq 老 耀 ⪪ 
+jf 老 Ҹ 
+call ԅ 
+jmp ԉ 
+pop 耀 
+eq 老 耀 ˄ 
+jt 老 ԉ 
+eq 老 耀 ˂ 
+jf 老 ԉ 
+set 耀 ԇ 
+call 耀 
+jmp ԉ 
+pop 耀 
+eq 老 耀 ˛ 
+jt 老 ԉ 
+eq 老 耀 ˙ 
+jf 老 ԉ 
+add 耀 翿 翿 
+eq 老 耀 翾 
+jf 老 Ԡ 
+eq 老 翾 耀 
+jf 老 Ԡ 
+add 耀 䀀 䀀 
+jt 耀 Ԡ 
+add 耀 䀀 䀀 
+jt 耀 Ԡ 
+mult 耀 
+jmp 
+add 
+eq 老 耀 * 
+jt 老 ե 
+eq 老 耀 6 
+jf 老 ֆ 
+mult 耀 〹 絻 
+eq 老 耀 c 
+jf 老 Ԡ 
+mod 耀 
+jmp 
+pop 
+eq 老 耀 
+halt 
+jf 老 ֝ 
+mod 耀 F 
+jmp 
+eq 老 耀 
+eq 
+jf 老 ֝ 
+mult 耀 翾 
+rmem 
+eq 老 耀 翢 
+jf 老 Ԡ 
+jmp ͍ 田 ✐ 
+rmem 耀 ͋ 
+eq 老 耀 丠 
+jf 老 ӗ 
+add 耂 ͋ 
+set 
+rmem 耀 耂 
+eq 老 耀 ✐ 
+jf 老 ӗ 
+set 耀 ͋ 
+wmem 耀 田 
+rmem 耂 耀 
+eq 老 耂 田 
+jf 老 Ӯ 
+call ڻ 
+rmem 耀 ឴ 
+eq 老 耀 
+mod 
+jf 老 ӗ 
+add 耂 ឴ 
+set 
+rmem 耀 耂 
+eq 老 耀 t 
+jf 老 ӗ 
+wmem 耂 T 
+rmem 耀 耂 
+eq 老 耀 t 
+jt 老 Ӯ 
+eq 老 耀 T 
+jf 老 Ӯ 
+wmem Ω 
+noop 
+wmem Ϊ 
+jt 
+noop 
+jt 
+out ϒ 
+out w 
+out m 
+out e 
+out m 
+out   
+out o 
+out p 
+out w 
+out r 
+out i 
+out t 
+out e 
+out   
+out f 
+out a 
+out i 
+out l 
+out 
+mult 
+halt 
+add 老 
+mult ៀ 
+add 老 老 
+set 
+rmem 耂 ៤ 
+add 耂 耂 ៤ 
+set 耀 ៤ 
+add 耀 耀 
+set 
+gt 考 耀 耂 
+jt 考 Ͽ 
+rmem 耄 耀 
+wmem 老 耄 
+add 耀 耀 
+set 
+add 老 老 
+set 
+jmp Ϩ 
+rmem 耀 ៀ 
+rmem 老 ៓ 
+add 耀 耀 老 
+add 耀 耀 
+set 
+wmem ៀ 耀 
+wmem ៓ , 
+set 耀 ៀ 
+call ׮ 
+push 耀 
+push 老 
+push 耂 
+set 耀 棣 
+set 老 ׻ 
+add 耂 ؝ P 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp મ 
+out n 
+out o 
+out   
+out j 
+out t 
+out / 
+out j 
+out f 
+out 
+mult 
+halt 
+out n 
+out o 
+out n 
+out z 
+out e 
+out r 
+out o 
+out   
+out r 
+out e 
+out g 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out s 
+out e 
+out t 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out g 
+out t 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out s 
+out t 
+out a 
+out c 
+out k 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out b 
+out i 
+out t 
+out w 
+out i 
+out s 
+out e 
+out   
+out a 
+out n 
+out d 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out b 
+out i 
+out t 
+out w 
+out i 
+out s 
+out e 
+out   
+out n 
+out o 
+out t 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out r 
+out m 
+out e 
+out m 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out w 
+out m 
+out e 
+out m 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+jmp ˄ 
+jmp ˛ 
+out n 
+out o 
+out   
+out c 
+out a 
+out l 
+out l 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out m 
+out o 
+out d 
+out u 
+out l 
+out o 
+out   
+out m 
+out a 
+out t 
+out h 
+out   
+out d 
+out u 
+out r 
+out i 
+out n 
+out g 
+out   
+out a 
+out d 
+out d 
+out   
+out o 
+out r 
+out   
+out m 
+out u 
+out l 
+out t 
+out 
+mult 
+halt 
+out n 
+out o 
+out t 
+out   
+out h 
+out i 
+out t 
+out c 
+out h 
+out h 
+out i 
+out k 
+out i 
+out n 
+out g 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out m 
+out u 
+out l 
+out t 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+out n 
+out o 
+out   
+out m 
+out o 
+out d 
+out   
+out o 
+out p 
+out 
+mult 
+halt 
+push 耀 
+push 考 
+push 耄 
+push 者 
+push 耆 
+set 耆 耀 
+set 者 老 
+rmem 耄 耀 
+set 老 
+halt 
+add 考 
+set 老 
+gt 耀 考 耄 
+jt 耀 ף 
+add 考 考 耆 
+rmem 耀 考 
+call 者 
+add 老 老 
+set 
+jt 老 ׈ 
+pop 耆 
+pop 者 
+pop 耄 
+pop 考 
+pop 耀 
+ret 
+push 老 
+set 老 ׸ 
+call ֲ 
+pop 老 
+ret 
+out 耀 
+ret 
+push 老 
+set 老 耂 
+call ࡍ 
+out 耀 
+pop 老 
+ret 
+push 老 
+push 考 
+rmem 考 耀 
+jf 考 ؛ 
+call ֲ 
+jt 老 ؛ 
+set 耀 耂 
+jmp ؞ 
+set 耀 翿 
+pop 考 
+pop 老 
+ret 
+push 老 
+push 耂 
+set 耂 老 
+set 老 م 
+call ؇ 
+pop 耂 
+pop 老 
+ret 
+push 老 
+push 耂 
+set 耂 老 
+set 老 ٰ 
+call ؇ 
+pop 耂 
+pop 老 
+ret 
+eq 耀 耀 耂 
+jf 耀 ْ 
+set 耂 老 
+set 老 翿 
+ret 
+push 考 
+add 考 耂 
+set 
+add 考 考 老 
+rmem 考 考 
+eq 考 耀 考 
+jt 考 ٭ 
+set 耂 老 
+set 老 翿 
+pop 考 
+ret 
+push 老 
+set 老 耂 
+call ڃ 
+pop 老 
+jf 耀 ڂ 
+set 耂 老 
+set 老 翿 
+ret 
+push 老 
+push 耂 
+push 考 
+push 耄 
+rmem 考 耀 
+rmem 耄 老 
+eq 耂 考 耄 
+jf 耂 گ 
+or 耂 考 耄 
+jf 耂 ڪ 
+set 耂 老 
+set 老 ٓ 
+call ֲ 
+jf 老 گ 
+set 耀 
+set 
+jmp ڲ 
+set 耀 
+halt 
+pop 耄 
+pop 考 
+pop 耂 
+pop 老 
+ret 
+push 耀 
+push 老 
+set 老 ឴ 
+rmem 耀 老 
+push 老 
+mult 老 老 老 
+call ࡍ 
+set 老 䅔 
+call ࡍ 
+pop 老 
+wmem 老 耀 
+add 老 老 
+set 
+eq 耀 畢 老 
+jf 耀 ۂ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 耂 
+push 考 
+push 耄 
+push 者 
+add 耂 老 耀 
+set 耀 老 
+set 者 
+halt 
+add 耀 耀 
+set 
+gt 考 耀 耂 
+jt 考 ܘ 
+in 耄 
+eq 考 耄 
+mult 
+jt 考 ܘ 
+wmem 耀 耄 
+add 者 者 
+set 
+jmp ۻ 
+wmem 老 者 
+eq 考 耄 
+mult 
+jt 考 ܦ 
+in 耄 
+jmp ܛ 
+pop 者 
+pop 耄 
+pop 考 
+pop 耂 
+pop 耀 
+ret 
+push 考 
+push 耄 
+push 者 
+push 耆 
+set 耆 
+set 
+add 耄 考 耆 
+rmem 耄 耄 
+add 者 ៭ 耆 
+wmem 者 耄 
+add 耆 耆 
+set 
+rmem 者 ៭ 
+gt 耄 耆 者 
+jf 耄 ܼ 
+set 考 
+halt 
+set 耄 
+halt 
+rmem 者 ៭ 
+mod 者 耄 者 
+add 者 者 ៭ 
+add 者 者 
+set 
+rmem 耆 者 
+mult 耆 耆 ᒁ 
+add 耆 耆 〹 
+wmem 者 耆 
+push 耀 
+push 老 
+set 老 耆 
+call ࡍ 
+set 耆 耀 
+pop 老 
+pop 耀 
+rmem 者 老 
+mod 耆 耆 者 
+add 耆 耆 
+set 
+gt 者 耆 耂 
+jt 者 ޠ 
+set 考 
+set 
+add 耆 耆 老 
+rmem 耆 耆 
+add 耄 耄 
+set 
+add 者 耄 ៱ 
+wmem 者 耆 
+rmem 者 ៱ 
+eq 者 耄 者 
+jf 者 ݞ 
+jf 考 ݘ 
+push 耀 
+set 耀 ៱ 
+call ׮ 
+pop 耀 
+pop 耆 
+pop 者 
+pop 耄 
+pop 考 
+ret 
+push 耀 
+push 老 
+push 耂 
+push 考 
+push 耄 
+push 者 
+set 耂 
+set 
+set 者 
+halt 
+jf 耀 ࠬ 
+eq 耄 耂 ✐ 
+set 考 耀 
+jt 耄 ߸ 
+mult 老 耂 
+mult 
+mod 考 耀 老 
+set 耄 
+halt 
+mult 耂 耂 翿 
+jf 考 ࠌ 
+add 耄 耄 
+set 
+add 考 考 耂 
+jmp ߿ 
+mult 耂 耂 翿 
+mult 考 耄 耂 
+mult 考 考 翿 
+add 耀 耀 考 
+add 耄 耄 0 
+mult 耂 耂 
+mult 
+add 者 者 
+set 
+push 耄 
+jmp ߣ 
+jt 者 ࠳ 
+out 0 
+jmp ࡀ 
+jf 者 ࡀ 
+pop 耀 
+out 耀 
+add 者 者 翿 
+jmp ࠳ 
+pop 者 
+pop 耄 
+pop 考 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 老 
+push 耂 
+and 耂 耀 老 
+not 耂 耂 
+or 耀 耀 老 
+and 耀 耀 耂 
+pop 耂 
+pop 老 
+ret 
+add 耀 耀 老 
+gt 老 老 耀 
+ret 
+push 耂 
+gt 耂 老 耀 
+mult 老 老 翿 
+add 耀 耀 老 
+set 老 耂 
+pop 耂 
+ret 
+jf 耀 ࣁ 
+jf 老 ࣁ 
+push 耂 
+push 考 
+gt 耂 老 耀 
+jt 耂 ࢜ 
+set 耂 耀 
+set 耀 老 
+set 老 耂 
+set 耂 耀 
+set 耀 
+halt 
+add 耀 耀 老 
+gt 考 老 耀 
+jt 考 ࢹ 
+add 耂 耂 翿 
+jt 耂 ࢢ 
+set 老 
+halt 
+jmp ࢼ 
+set 老 
+set 
+pop 考 
+pop 耂 
+ret 
+set 耀 
+halt 
+set 老 
+halt 
+ret 
+push 老 
+push 耂 
+jf 老 ࣤ 
+add 老 老 翿 
+and 耂 耀 䀀 
+mult 耀 耀 
+push 
+jf 耂 ࣌ 
+or 耀 耀 
+set 
+jmp ࣌ 
+pop 耂 
+pop 老 
+ret 
+push 老 
+gt 老 耀 
+not 
+jt 老 अ 
+set 老 耀 
+set 耀 
+set 
+jf 老 ई 
+add 老 老 翿 
+mult 耀 耀 
+push 
+jmp ࣸ 
+set 耀 翿 
+pop 老 
+ret 
+jmp મ ៾ ᠈ 椔 椗 
+halt ᣎ ᣘ 椚 検 
+halt ᤩ ᤳ 椞 椡 
+halt ᧅ ᧏ 椤 椧 
+halt ᨷ ᩁ 椪 椭 
+halt ᬊ ᬖ 椰 椳 
+halt ᮞ ᮷ 椶 椸 
+halt ᱦ ᱲ 椺 椽 
+halt ᵎ ᵚ 楀 楂 
+halt ᷀ ᷌ 楄 楇 
+halt ṷ ṿ 楊 楎 
+halt ὇ 楒 楕 楘 
+halt ΰ ῳ 楛 楡 ພ ₌ ₜ 楧 楫 ຢ ⃥ ⃵ 楯 楳 ຬ ℾ ⅎ 楷 楼 ຶ ⇡ ⇱ 榁 榅 ເ ∺ ≊ 榉 榎 ໊ ⋤ ⋴ 榓 榗 ໔ ⌽ ⍍ 榛 榝 ໞ ⎊ ⎚ 榟 榡 
+halt ⏗ ⏧ 榣 榦 ่ ␫ ␸ 榩 榬 ่ ⒵ Ⓜ 榯 榲 ่ ⓯ ⓼ 榵 榸 ่ ┩ ┶ 榻 榾 ่ ▥ ▫ 槁 槄 
+halt ⚯ ⚵ 槇 槊 
+halt ❷ ❽ 槍 槒 
+halt 
+gt ⢹ ⢿ 槣 槥 ༵ ⥭ ⥳ 槧 槪 
+halt ⨈ ⨎ 槭 槯 
+halt ⪌ ⪒ 槱 槴 
+halt ⭎ ⭔ 槷 槹 
+halt Ⰳ Ⱈ 槻 槽 
+halt ⴠ ⴵ 槿 樁 
+halt ⷎ ⷔ 樃 樇 
+halt ⺏ ⺕ 樋 樎 
+halt ⾧ ⾭ 樑 樔 
+halt カ セ 樗 樛 
+halt ㆓ ㆣ 樟 樣 
+halt ㈯ ㈿ 樧 横 
+halt ㌲ ㍂ 樭 樰 
+halt 㑬 㑼 樳 樶 
+halt 㕾 㖌 樹 樼 
+halt 㙵 㚃 樿 橂 
+halt 㜊 㜘 橅 橉 
+halt 㡬 㢁 橍 橏 
+halt 㤪 㤸 橑 橔 ሃ 㦭 㦸 橗 橚 ྲྀ 㩄 㩏 橝 橡 ྇ 㫢 㫭 橥 橩 ྘ 㭾 㮉 橭 橱 ྩ 㲑 㲜 橵 橹 ྼ 㴰 㴻 橽 檂 ࿍ 㷒 㷝 檇 檌 ࿞ 㹷 㺂 檑 檕 ࿯ 㼔 㼟 檙 檝 က 㾱 㾼 檡 檦 ထ 䁕 䁠 檫 檰 ဢ 䃷 䄂 檵 檹 ဳ 䆗 䆩 檽 櫁 ၄ 䉋 䉖 櫅 櫉 ၇ 䋧 䋲 櫍 櫑 ၘ 䎅 䎐 櫕 櫘 ၩ 䐜 䐢 櫛 櫝 ቒ 䓽 䔝 櫟 櫢 
+halt 䖎 䖮 櫥 櫨 
+halt 䘝 䘯 櫫 櫯 
+halt 䚇 䚍 櫳 櫴 ๵ 䚎 䚕 ऍ ተ 䜞 䜬 翿 
+halt 䞨 䞰 翿 ጕ 䠤 䠰 
+halt ፃ 䢈 䢌 翿 ኿ 䢺 䣃 翿 ᓰ 䤃 䤑 翿 ᔁ 䥑 䥜 翿 ᔒ 䦤 䦱 翿 ᔣ 䨉 䨓 翿 ᔴ 䩕 䩠 
+halt ᕅ 䪩 䪷 
+halt 
+halt 䫸 䫼 ਿ 
+halt 䬺 䭁 ੓ ᙙ 䮸 䯅 
+halt 
+halt 噍 噕 ৹ 
+halt স স 
+push 耀 
+push 老 
+push 耂 
+push 考 
+rmem 老 બ 
+rmem 耀 ભ 
+eq 耀 耀 老 
+jt 耀 ૒ 
+rmem 耀 બ 
+add 耀 耀 
+eq 
+rmem 耀 耀 
+jf 耀 ૒ 
+call 耀 
+rmem 老 બ 
+rmem 耀 ભ 
+eq 耀 耀 老 
+jt 耀 ૧ 
+set 耀 敶 
+wmem 耀 
+halt 
+call ஔ 
+wmem ભ 老 
+push 耀 
+push 老 
+push 耂 
+set 耀 欖 
+set 老 ׻ 
+add 耂 䞔 ⯒ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+set 耀   
+set 老 敶 
+call ۧ 
+out 
+mult 
+out 
+mult 
+set 耀 敶 
+set 老   
+call أ 
+eq 老 耀 翿 
+jf 老 ଠ 
+rmem 耀 敶 
+set 耂 耀 
+rmem 老 敶 
+push 老 
+wmem 敶 耂 
+set 耀 欆 
+set 老 敶 
+call ش 
+pop 老 
+wmem 敶 老 
+eq 老 耀 翿 
+jf 老 ୅ 
+set 耀 
+halt 
+set 耂 
+halt 
+add 老 欎 
+set 
+add 老 老 耀 
+rmem 老 老 
+rmem 考 敶 
+eq 考 考 耂 
+jt 考 ஀ 
+mult 耀 耂 翿 
+rmem 考 敶 
+add 考 耀 考 
+jf 耂 ୬ 
+add 考 考 翿 
+mod 考 考   
+add 耀 敶 耂 
+jf 耂 ୻ 
+add 耀 耀 
+set 
+wmem 耀 考 
+jmp ஆ 
+set 耀 敶 
+wmem 耀 
+halt 
+call 老 
+jt 老 શ 
+pop 考 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+rmem 老 耀 
+jf 老 ௘ 
+call ᜡ 
+jf 耀 ா 
+push 耀 
+call ᝦ 
+set 老 耀 
+pop 耀 
+jf 老 ா 
+add 老 耀 
+set 
+rmem 耀 老 
+call ׮ 
+out 
+mult 
+jmp ದ 
+push 耀 
+push 老 
+push 耂 
+set 耀 欨 
+set 老 ׻ 
+add 耂 ȅ 忱 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ದ 
+rmem 耀 બ 
+push 耀 
+out = 
+out = 
+out   
+add 耀 耀 
+halt 
+rmem 耀 耀 
+call ׮ 
+out   
+out = 
+out = 
+out 
+mult 
+pop 耀 
+push 耀 
+add 耀 耀 
+set 
+rmem 耀 耀 
+rmem 老 耀 
+eq 老 老 
+push 
+jf 老 ఠ 
+push 耀 
+set 耀 ੸ 
+call ᝦ 
+set 老 耀 
+pop 耀 
+add 耀 耀 
+set 
+add 耀 耀 老 
+rmem 耀 耀 
+call ׮ 
+out 
+mult 
+pop 耀 
+push 耀 
+call ᚿ 
+jf 耀 ొ 
+push 耀 
+push 老 
+push 耂 
+set 耀 欿 
+set 老 ׻ 
+add 耂 ၷ 䝭 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+rmem 耂 બ 
+call ᛴ 
+pop 耀 
+push 耀 
+add 耀 耀 
+push 
+rmem 耀 耀 
+rmem 耀 耀 
+eq 耂 耀 
+set 
+out 
+mult 
+out T 
+out h 
+out e 
+out r 
+out e 
+out   
+jt 耂 ౵ 
+out a 
+out r 
+out e 
+jmp ౹ 
+out i 
+out s 
+out   
+call ߑ 
+out   
+out e 
+out x 
+out i 
+out t 
+eq 耂 耀 
+set 
+jt 耂 ಐ 
+out s 
+out : 
+out 
+mult 
+pop 耀 
+push 耀 
+add 耀 耀 
+push 
+rmem 耀 耀 
+set 老 ᚶ 
+call ֲ 
+pop 耀 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+set 老 耀 
+rmem 耀 બ 
+add 耀 耀 
+push 
+rmem 耀 耀 
+call ش 
+eq 耂 耀 翿 
+jt 耂 ೦ 
+rmem 耂 બ 
+add 耂 耂 
+pop 
+rmem 耂 耂 
+add 耂 耂 
+set 
+add 耂 耂 耀 
+rmem 耂 耂 
+wmem બ 耂 
+wmem ભ 
+halt 
+jmp ೾ 
+push 耀 
+push 老 
+push 耂 
+set 耀 歚 
+set 老 ׻ 
+add 耂 ➁ ⩫ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 耀 
+push 老 
+push 耂 
+set 耀 殌 
+set 老 ׻ 
+add 耂 ᱬ ൹ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 耀 
+ret 
+push 耀 
+push 耂 
+push 耀 
+push 老 
+push 耂 
+set 耀 涅 
+set 老 ׻ 
+add 耂 ሼ 㾾 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+set 耂 
+halt 
+call ᛴ 
+pop 耂 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+call ᜡ 
+jf 耀 ඁ 
+add 老 耀 
+push 
+rmem 耀 老 
+rmem 耂 બ 
+eq 耂 耀 耂 
+jf 耂 ඁ 
+wmem 老 
+halt 
+push 耀 
+push 老 
+push 耂 
+set 耀 涖 
+set 老 ׻ 
+add 耂 ⬻ ᇀ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ඙ 
+push 耀 
+push 老 
+push 耂 
+set 耀 涞 
+set 老 ׻ 
+add 耂 㑢 ᘅ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+call ᜡ 
+jf 耀 ී 
+add 老 耀 
+push 
+rmem 耀 老 
+jt 耀 ී 
+rmem 耀 બ 
+wmem 老 耀 
+push 耀 
+push 老 
+push 耂 
+set 耀 涺 
+set 老 ׻ 
+add 耂 ⬇ 䣯 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ෫ 
+push 耀 
+push 老 
+push 耂 
+set 耀 淄 
+set 老 ׻ 
+add 耂 ⩆ 7 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+call ᜡ 
+jf 耀 ฑ 
+add 老 耀 
+push 
+rmem 老 老 
+jt 老 ฑ 
+add 老 耀 
+pop 
+rmem 老 老 
+jf 老 ห 
+call 老 
+jmp ใ 
+push 耀 
+push 老 
+push 耂 
+set 耀 淧 
+set 老 ׻ 
+add 耂 ਸ ඵ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ใ 
+push 耀 
+push 老 
+push 耂 
+set 耀 渊 
+set 老 ׻ 
+add 耂 ⵅ ኟ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+set 耀 ੸ 
+call ᝦ 
+jt 耀 ๮ 
+add 耀 ੴ 
+push 
+wmem 耀 翿 
+add 耀 ੸ 
+push 
+wmem 耀 翿 
+add 耀 ੰ 
+push 
+wmem 耀 翿 
+wmem બ ੘ 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+set 耀 測 
+set 老 ׻ 
+add 耂 ں ʲ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+halt 
+halt 
+push 老 
+rmem 老 ຎ 
+or 老 老 耀 
+wmem ຎ 老 
+pop 老 
+ret 
+wmem ຎ 
+halt 
+ret 
+push 耀 
+set 耀 
+set 
+call ຏ 
+pop 耀 
+ret 
+push 耀 
+set 耀 
+push 
+call ຏ 
+pop 耀 
+ret 
+push 耀 
+set 耀 
+eq 
+call ຏ 
+pop 耀 
+ret 
+push 耀 
+set 耀 
+jf 
+call ຏ 
+pop 耀 
+ret 
+push 耀 
+set 耀 
+wmem 
+call ຏ 
+pop 耀 
+ret 
+push 耀 
+set 耀   
+call ຏ 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+push 考 
+set 耀 @ 
+call ຏ 
+push 耀 
+push 老 
+push 耂 
+set 耀 湌 
+set 老 ׻ 
+add 耂 ᐻ 㚩 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+rmem 耀 ຎ 
+set 老 攊 
+set 耂 翿 
+set 考 溋 
+call ܱ 
+push 耀 
+push 老 
+push 耂 
+set 耀 溏 
+set 老 ׻ 
+add 耂 ቲ ⛷ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+wmem બ ॱ 
+pop 考 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+rmem 耀 ঞ 
+rmem 老 槝 
+eq 耀 耀 老 
+jt 耀 ཤ 
+push 耀 
+push 老 
+push 耂 
+set 耀 溻 
+set 老 ׻ 
+add 耂 䉘 ᤊ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+wmem બ ঙ 
+wmem ભ ঙ 
+pop 老 
+pop 耀 
+ret 斗 斝 斡 ࡥ ࡮ ࢂ 
+halt  
+halt 
+halt 
+halt 
+halt 
+halt 
+push 耀 
+push 老 
+set 耀 
+push 
+set 老 
+halt 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+jf 
+set 老 
+set 
+call Ⴗ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+set 
+set 老 
+push 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+set 
+set 老 
+pop 
+call Ⴗ 
+call ᆵ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+eq 
+set 老 
+eq 
+call Ⴗ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+push 
+set 老 
+gt 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+mod 
+set 老 
+jmp 
+call Ⴗ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+push 
+set 老 
+jt 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+halt 
+set 老 
+jf 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+eq 
+set 老 
+add 
+call Ⴗ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+set 
+set 老 
+mult 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+ret 
+set 老 
+mod 
+call Ⴗ 
+pop 老 
+pop 耀 
+ret 
+call ሃ 
+ret 
+push 耀 
+push 老 
+set 耀 
+set 
+set 老 
+and 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+add 
+set 老 
+or 
+call Ⴗ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 
+push 
+set 老 
+not 
+call ၺ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+add 耂 જ 
+push 
+rmem 耂 耂 
+jt 耂 Ⴐ 
+call ᄵ 
+wmem ཯ 耀 
+add 老 耀 ཀྵ 
+rmem 老 老 
+set 耀 斨 
+call ׮ 
+set 耀 老 
+call ׮ 
+set 耀 旨 
+call ׮ 
+set 耀 老 
+call ׮ 
+out . 
+out 
+mult 
+out 
+mult 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+add 耂 જ 
+push 
+rmem 耂 耂 
+jt 耂 ᄮ 
+call ᄵ 
+push 耀 
+rmem 耀 ཯ 
+add 老 耀 ཀྵ 
+rmem 老 老 
+set 耀 昊 
+call ׮ 
+set 耀 老 
+call ׮ 
+set 耀 昺 
+call ׮ 
+pop 耀 
+set 老 耀 
+rmem 耀 ཰ 
+rmem 耂 ཯ 
+add 耂 耂 ཬ 
+rmem 耂 耂 
+call 耂 
+jt 老 ᄧ 
+rmem 老 ཰ 
+wmem ཰ 耀 
+gt 耂 耀 老 
+jf 耂 ᄑ 
+push 耀 
+set 耀 晻 
+call ׮ 
+pop 耀 
+gt 耂 老 耀 
+jf 耂 ᄡ 
+push 耀 
+set 耀 暛 
+call ׮ 
+pop 耀 
+out 
+mult 
+out 
+mult 
+jmp ᄮ 
+call ሴ 
+set 耀 暻 
+call ׮ 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+push 考 
+push 耄 
+push 者 
+rmem 者 ཱ 
+gt 考 者 甯 
+jt 考 ᅒ 
+add 者 者 
+set 
+wmem ཱ 者 
+set 考 耀 
+set 耄 老 
+add 耀 者 
+push 
+call ࣩ 
+rmem 老 ི 
+or 耀 老 耀 
+set 老 耄 
+call ࣈ 
+wmem ི 耀 
+set 耀 ཱི 
+add 老 者 
+push 
+set 耂 耄 
+call ᆣ 
+set 耀 ུ 
+mult 老 者 者 
+mult 耂 耄 耄 
+call ᆣ 
+set 耀 ཱུ 
+set 老 
+or 
+mult 耂 考 
+add 
+mult 耂 耂 耂 
+call ᆣ 
+pop 者 
+pop 耄 
+pop 考 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+rmem 耀 耀 
+call ࣈ 
+set 老 耂 
+call ࡍ 
+pop 老 
+wmem 老 耀 
+ret 
+push 耀 
+add 耀 જ 
+push 
+rmem 耀 耀 
+jt 耀 ሀ 
+set 耀 曑 
+call ׮ 
+rmem 耀 ཰ 
+eq 耀 耀  
+jt 耀 ᇞ 
+set 耀 曲 
+call ׮ 
+set 耀 朞 
+call ׮ 
+call ሴ 
+jmp ሀ 
+set 耀 杈 
+call ׮ 
+rmem 耀 ི 
+add 耀 耀 
+set 
+jt 耀 ᇴ 
+set 耀 杴 
+call ׮ 
+jmp ᇕ 
+set 耀 柘 
+call ׮ 
+add 耀 જ 
+push 
+wmem 耀 翿 
+pop 耀 
+ret 
+push 耀 
+add 耀 જ 
+push 
+rmem 耀 耀 
+jt 耀 ሱ 
+set 耀 桝 
+call ׮ 
+rmem 耀 બ 
+eq 耀 耀 ਿ 
+jt 耀 ሥ 
+set 耀 桥 
+call ׮ 
+jmp ሪ 
+set 耀 桫 
+call ׮ 
+set 耀 桱 
+call ׮ 
+call ሴ 
+pop 耀 
+ret 
+push 耀 
+wmem ཰  
+wmem ཱ 
+halt 
+wmem ི 
+halt 
+wmem ཱི 
+halt 
+wmem ུ 
+halt 
+wmem ཱུ 
+halt 
+add 耀 જ 
+push 
+wmem 耀 ਿ 
+pop 耀 
+ret 
+push 耀 
+add 耀 જ 
+push 
+rmem 耀 耀 
+eq 耀 耀 翿 
+jt 耀 ቭ 
+set 耀 棈 
+call ׮ 
+wmem બ ਒ 
+wmem ભ ਒ 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+push 考 
+push 耀 
+push 老 
+push 耂 
+set 耀 滑 
+set 老 ׻ 
+add 耂 ጾ ế 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+set 耀 ႒ 
+set 老 攊 
+set 耂 翿 
+set 考 滭 
+call ܱ 
+push 耀 
+push 老 
+push 耂 
+set 耀 滱 
+set 老 ׻ 
+add 耂 ၴ ஁ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 考 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+add 耀 ੰ 
+push 
+rmem 耀 耀 
+jt 耀 ዺ 
+add 耀 ੼ 
+push 
+wmem 耀 翿 
+add 耀 ੰ 
+push 
+wmem 耀 翿 
+add 耀 ੴ 
+push 
+wmem 耀 
+halt 
+push 耀 
+push 老 
+push 耂 
+set 耀 漥 
+set 老 ׻ 
+add 耂 ̰ 睌 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ጒ 
+push 耀 
+push 老 
+push 耂 
+set 耀 潞 
+set 老 ׻ 
+add 耂 ⊶ ᘷ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 耀 
+ret 
+push 耀 
+add 耀 ੴ 
+push 
+wmem 耀 翿 
+add 耀 ੸ 
+push 
+wmem 耀 
+halt 
+push 耀 
+push 老 
+push 耂 
+set 耀 澙 
+set 老 ׻ 
+add 耂 氐 क़ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+wmem ભ 
+halt 
+pop 耀 
+ret 
+push 耀 
+add 耀 ੴ 
+push 
+wmem 耀 
+halt 
+add 耀 ੸ 
+push 
+wmem 耀 翿 
+push 耀 
+push 老 
+push 耂 
+set 耀 澳 
+set 老 ׻ 
+add 耂 㟡 Ⲛ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+wmem ભ 
+halt 
+pop 耀 
+ret 
+push 耂 
+push 考 
+rmem 耂 બ 
+eq 耂 耂 ঙ 
+jt 耂 ᎙ 
+push 耀 
+push 老 
+push 耂 
+set 耀 濍 
+set 老 ׻ 
+add 耂 ⤉ ໠ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ᓘ 
+add 耂 耀 
+push 
+wmem 耂 翿 
+rmem 耂 ঞ 
+add 耂 耂 槗 
+add 耂 耂 
+set 
+rmem 耂 耂 
+add 考 ঙ 
+set 
+rmem 考 考 
+add 考 考 耂 
+add 耂 老 0 
+wmem 考 耂 
+rmem 耂 ঞ 
+add 耂 耂 槝 
+add 耂 耂 
+set 
+wmem 耂 老 
+push 耀 
+push 耀 
+push 老 
+push 耂 
+set 耀 濸 
+set 老 ׻ 
+add 耂 䙲 պ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 耀 
+push 耀 
+add 耂 耀 
+halt 
+rmem 耀 耂 
+call ׮ 
+pop 耀 
+push 耀 
+push 耀 
+push 老 
+push 耂 
+set 耀 瀇 
+set 老 ׻ 
+add 耂 㦥 ⥅ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 耀 
+rmem 耂 ঞ 
+add 耂 耂 
+set 
+wmem ঞ 耂 
+rmem 考 槝 
+eq 考 耂 考 
+jf 考 ᓘ 
+set 耀 
+halt 
+add 老 槝 
+set 
+rmem 老 老 
+add 耀 耀 老 
+add 老 槝 
+push 
+rmem 老 老 
+add 耂 槝 
+pop 
+rmem 耂 耂 
+mult 耂 耂 耂 
+mult 老 老 耂 
+add 耀 耀 老 
+add 老 槝 
+eq 
+rmem 老 老 
+mult 耂 老 老 
+mult 耂 耂 老 
+add 耀 耀 耂 
+add 老 槝 
+gt 
+rmem 老 老 
+mult 老 老 翿 
+add 耀 耀 老 
+eq 老 耀 Ə 
+jt 老 ᓀ 
+add 耂 ઀ 
+push 
+wmem 耂 ঙ 
+add 耂 ઄ 
+push 
+wmem 耂 ঙ 
+add 耂 ઈ 
+push 
+wmem 耂 ঙ 
+add 耂 ઌ 
+push 
+wmem 耂 ঙ 
+add 耂 ઐ 
+push 
+wmem 耂 ঙ 
+wmem ঞ 
+halt 
+set 耀 槗 
+set 老 ᓝ 
+call ֲ 
+push 耀 
+push 老 
+push 耂 
+set 耀 瀦 
+set 老 ׻ 
+add 耂 䈽 ⸰ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ᓘ 
+push 耀 
+push 老 
+push 耂 
+set 耀 灩 
+set 老 ׻ 
+add 耂 ऐ ቢ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 考 
+pop 耂 
+ret 
+push 耂 
+add 耂 ঙ 
+set 
+rmem 耂 耂 
+add 耂 耂 耀 
+wmem 耂 _ 
+pop 耂 
+ret 
+push 耀 
+push 老 
+set 耀 ઀ 
+set 老 
+push 
+call ፱ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 ઄ 
+set 老 
+pop 
+call ፱ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 ઈ 
+set 老 
+gt 
+call ፱ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 ઌ 
+set 老 
+jt 
+call ፱ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+set 耀 ઐ 
+set 老 
+add 
+call ፱ 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+jf 耇 ᗥ 
+push 耀 
+push 老 
+push 耂 
+set 耀 炬 
+set 老 ׻ 
+add 耂 ᕀ ಠ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+noop 
+noop 
+noop 
+noop 
+noop 
+set 耀 
+eq 
+set 老 
+set 
+call ឋ 
+eq 老 耀 
+jmp 
+jf 老 ᗋ 
+push 耀 
+push 老 
+push 耂 
+set 耀 煖 
+set 老 ׻ 
+add 耂 䩣 ຒ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+set 耀 耇 
+set 老 攊 
+set 耂 翿 
+push 考 
+set 考 爹 
+call ܱ 
+pop 考 
+push 耀 
+push 老 
+push 耂 
+set 耀 爽 
+set 老 ׻ 
+add 耂 ἐ ๐ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+wmem બ ূ 
+wmem ભ 
+halt 
+add 老 ઔ 
+push 
+wmem 老 翿 
+jmp ᙒ 
+push 耀 
+push 老 
+push 耂 
+set 耀 狘 
+set 老 ׻ 
+add 耂 堏 ᕖ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+jmp ᙒ 
+push 耀 
+push 老 
+push 耂 
+set 耀 獩 
+set 老 ׻ 
+add 耂 ֹ ( 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+set 耀 
+halt 
+add 耂 
+set 槝 
+rmem 老 耂 
+add 耀 耀 老 
+mult 耀 耀 箬 
+call ࡍ 
+rmem 老 槝 
+add 老 老 槝 
+add 耂 耂 
+set 
+gt 老 耂 老 
+jf 老 ᘄ 
+set 老 攊 
+set 耂 翿 
+push 考 
+set 考 珟 
+call ܱ 
+pop 考 
+push 耀 
+push 老 
+push 耂 
+set 耀 珣 
+set 老 ׻ 
+add 耂  ՠ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+wmem બ স 
+wmem ભ 
+halt 
+jmp ᙒ 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+push 耀 
+push 老 
+push 耂 
+push 考 
+push 耀 
+push 老 
+push 耂 
+set 耀 琽 
+set 老 ׻ 
+add 耂 ᐌ 乕 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+rmem 耀 ཱི 
+rmem 老 ུ 
+call ࡍ 
+rmem 老 ཱུ 
+call ࡍ 
+set 老 政 
+set 耂 
+eq 
+push 考 
+set 考 瓶 
+call ܱ 
+pop 考 
+push 耀 
+push 老 
+push 耂 
+set 耀 瓺 
+set 老 ׻ 
+add 耂 ᐫ ζ 
+call ֲ 
+pop 耂 
+pop 老 
+pop 耀 
+pop 考 
+pop 耂 
+pop 老 
+pop 耀 
+ret 
+out - 
+out   
+call ׮ 
+out 
+mult 
+ret 
+push 老 
+push 耂 
+set 耀 櫵 
+set 老 ᛖ 
+set 耂 
+halt 
+call ֲ 
+set 耀 耂 
+pop 耂 
+pop 老 
+ret 
+push 考 
+push 耄 
+rmem 考 બ 
+add 耄 耀 
+push 
+rmem 耄 耄 
+eq 考 考 耄 
+jf 考 ᛯ 
+add 耂 耂 
+set 
+pop 耄 
+pop 考 
+ret 
+push 耀 
+push 老 
+set 耀 櫵 
+set 老 ᜅ 
+call ֲ 
+pop 老 
+pop 耀 
+ret 
+push 考 
+add 考 耀 
+push 
+rmem 考 考 
+eq 考 耂 考 
+jf 考 ᜞ 
+add 耀 耀 
+halt 
+rmem 耀 耀 
+call ᚶ 
+pop 考 
+ret 
+push 老 
+push 耂 
+set 耂 耀 
+set 耀 櫵 
+set 老 ᝌ 
+call ؇ 
+eq 老 耀 翿 
+jt 老 ᝄ 
+add 老 櫵 耀 
+add 老 老 
+set 
+rmem 耀 老 
+jmp ᝇ 
+set 耀 
+halt 
+pop 耂 
+pop 老 
+ret 
+push 老 
+set 老 耂 
+add 耀 耀 
+halt 
+rmem 耀 耀 
+call ڃ 
+pop 老 
+jf 耀 ᝥ 
+set 耂 老 
+set 老 翿 
+ret 
+push 老 
+push 耂 
+add 耀 耀 
+push 
+rmem 耀 耀 
+jf 耀 ឃ 
+rmem 老 બ 
+eq 老 耀 老 
+jt 老 ឃ 
+set 耀 
+halt 
+jmp ឆ 
+set 耀 
+set 
+pop 耂 
+pop 老 
+ret 
+jt 耀 ន 
+add 耀 老 
+set 
+ret 
+jt 老 ហ 
+add 耀 耀 翿 
+set 老 耇 
+call ឋ 
+ret 
+push 耀 
+add 老 老 翿 
+call ឋ 
+set 老 耀 
+pop 耀 
+add 耀 耀 翿 
+call ឋ 
+ret 
+mod T e s t   s t r i n g # s e l f - t e s t   c o m p l e t e ,   a l l   t e s t s   p a s s 
+mult 
+jf c o m p l e t e 
+pop ㈿ 㞤 儍 
+and R I D o D m n m h K x g 
+add F o o t h i l l s · Y o u   f i n d   y o u r s e l f   s t a n d i n g   a t   t h e   b a s e   o f   a n   e n o r m o u s   m o u n t a i n .     A t   i t s   b a s e   t o   t h e   n o r t h ,   t h e r e   i s   a   m a s s i v e   d o o r w a y .     A   s i g n   n e a r b y   r e a d s   " K e e p   o u t !     D e f i n i t e l y   n o   t r e a s u r e   w i t h i n ! " 
+jt d o o r w a y 
+gt s o u t h 
+add F o o t h i l l s J A s   y o u   b e g i n   t o   l e a v e ,   y o u   f e e l   t h e   u r g e   f o r   a d v e n t u r e   p u l l i n g   y o u   b a c k . . . 
+gt n o r t h 
+add D a r k   c a v e  T h i s   s e e m s   t o   b e   t h e   m o u t h   o f   a   d e e p   c a v e .     A s   y o u   p e e r   n o r t h   i n t o   t h e   d a r k n e s s ,   y o u   t h i n k   y o u   h e a r   t h e   e c h o e s   o f   b a t s   d e e p e r   w i t h i n . 
+gt n o r t h 
+gt s o u t h 
+add D a r k   c a v e [ T h e   c a v e   i s   s o m e w h a t   n a r r o w   h e r e ,   a n d   t h e   l i g h t   f r o m   t h e   d o o r w a y   t o   t h e   s o u t h   i s   q u i t e   d i m . 
+gt n o r t h 
+gt s o u t h 
+add D a r k   c a v e » T h e   c a v e   a c o u s t i c s   d r a m a t i c a l l y   c h a n g e   a s   y o u   f i n d   y o u r s e l f   a t   a   l e g d e   a b o v e   a   l a r g e   c h a s m .     T h e r e   i s   b a r e l y   e n o u g h   l i g h t   h e r e   t o   n o t i c e   a   r o p e   b r i d g e   l e a d i n g   o u t   i n t o   t h e   d a r k   e m p t i n e s s . 
+jmp b r i d g e 
+gt s o u t h 
+mod R o p e   b r i d g e y T h i s   r o p e   b r i d g e   c r e a k s   a s   y o u   w a l k   a l o n g   i t .     Y o u   a r e n ' t   s u r e   h o w   o l d   i t   i s ,   o r   w h e t h e r   i t   c a n   e v e n   s u p p o r t   y o u r   w e i g h t . 
+jf c o n t i n u e 
+eq b a c k  F a l l i n g   t h r o u g h   t h e   a i r ! © A s   y o u   c o n t i n u e   a l o n g   t h e   b r i d g e ,   i t   s n a p s !     Y o u   t r y   t o   g r a b   t h e   b r i d g e ,   b u t   i t   e v a d e s   y o u r   g r a s p   i n   t h e   d a r k n e s s .     Y o u   a r e   p l u m m e t i n g   q u i c k l y   d o w n w a r d   i n t o   t h e   c h a s m . . . 
+eq d o w n 
+mod M o s s   c a v e r n Ñ Y o u   a r e   s t a n d i n g   i n   a   l a r g e   c a v e r n   f u l l   o f   b i o l u m i n e s c e n t   m o s s .     I t   m u s t   h a v e   b r o k e n   y o u r   f a l l !     T h e   c a v e r n   e x t e n d s   t o   t h e   e a s t   a n d   w e s t ;   a t   t h e   w e s t   e n d ,   y o u   t h i n k   y o u   s e e   a   p a s s a g e   l e a d i n g   o u t   o f   t h e   c a v e r n . 
+eq w e s t 
+eq e a s t 
+mod M o s s   c a v e r n ` Y o u   a r e   s t a n d i n g   i n   a   l a r g e   c a v e r n   f u l l   o f   b i o l u m i n e s c e n t   m o s s .     T h e   c a v e r n   e x t e n d s   t o   t h e   w e s t . 
+eq w e s t 
+mod M o s s   c a v e r n  Y o u   a r e   s t a n d i n g   i n   a   l a r g e   c a v e r n   f u l l   o f   b i o l u m i n e s c e n t   m o s s .     T h e   c a v e r n   e x t e n d s   t o   t h e   e a s t .     T h e r e   i s   a   c r e v i s e   i n   t h e   r o c k s   w h i c h   o p e n s   i n t o   a   p a s s a g e . 
+eq e a s t 
+jt p a s s a g e 
+jt P a s s a g e ° Y o u   a r e   i n   a   c r e v i s e   o n   t h e   w e s t   w a l l   o f   t h e   m o s s   c a v e r n .     A   d a r k   p a s s a g e   l e a d s   f u r t h e r   w e s t .     T h e r e   i s   a   l a d d e r   h e r e   w h i c h   l e a d s   d o w n   i n t o   a   s m a l l e r ,   m o s s - f i l l e d   c a v e r n   b e l o w . 
+jmp c a v e r n 
+jmp l a d d e r 
+jf d a r k n e s s 
+jt P a s s a g e 9 I t   i s   p i t c h   b l a c k .     Y o u   a r e   l i k e l y   t o   b e   e a t e n   b y   a   g r u e . K Y o u   f e e l   t h a t   y o u r   l i g h t   s o u r c e   i s   m o r e   t h a n   s u f f i c i e n t   t o   k e e p   g r u e s   a w a y . 
+jf c o n t i n u e 
+eq b a c k 
+rmem T w i s t y   p a s s a g e s { Y o u   a r e   i n   a   m a z e   o f   t w i s t y   l i t t l e   p a s s a g e s ,   a l l   d i m l y   l i t   b y   m o r e   b i o l u m i n e s c e n t   m o s s .     T h e r e   i s   a   l a d d e r   h e r e   l e a d i n g   u p . 
+jmp l a d d e r 
+gt n o r t h 
+gt s o u t h 
+eq e a s t 
+eq w e s t 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   t w i s t y   m a z e   o f   l i t t l e   p a s s a g e s ,   a l l   a l i k e . 
+gt n o r t h 
+gt s o u t h 
+eq w e s t 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   m a z e   o f   l i t t l e   t w i s t y   p a s s a g e s ,   a l l   a l i k e . 
+gt n o r t h 
+gt s o u t h 
+eq e a s t 
+rmem T w i s t y   p a s s a g e s | Y o u   a r e   i n   a   m a z e   o f   a l i k e   l i t t l e   p a s s a g e s ,   a l l   t w i s t y . 
+mult 
+mult T h e   p a s s a g e   t o   t h e   e a s t   l o o k s   v e r y   d a r k ;   y o u   t h i n k   y o u   h e a r   a   G r u e . 
+gt n o r t h 
+gt s o u t h 
+eq w e s t 
+eq e a s t 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   l i t t l e   m a z e   o f   t w i s t y   p a s s a g e s ,   a l l   a l i k e . 
+gt n o r t h 
+gt s o u t h 
+eq e a s t 
+rmem T w i s t y   p a s s a g e s  Y o u   a r e   i n   a   t w i s t y   a l i k e   o f   l i t t l e   p a s s a g e s ,   a l l   m a z e . 
+mult 
+mult T h e   e a s t   p a s s a g e   a p p e a r s   v e r y   d a r k ;   y o u   f e e l   l i k e l y   t o   b e   e a t e n   b y   a   G r u e . 
+gt n o r t h 
+gt s o u t h 
+eq w e s t 
+eq e a s t 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   m a z e   o f   a l i k e   t w i s t y   p a s s a g e s ,   a l l   l i t t l e . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   m a z e   o f   t w i s t y   l i t t l e   p a s s a g e s ,   a l l   a l i k e . 
+eq w e s t 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   m a z e   o f   t w i s t y   l i t t l e   p a s s a g e s ,   a l l   a l i k e . 
+eq w e s t 
+rmem T w i s t y   p a s s a g e s 7 Y o u   a r e   i n   a   t w i s t y   m a z e   o f   l i t t l e   p a s s a g e s ,   a l l   a l i k e . 
+gt n o r t h 
+gt s o u t h 
+and D a r k   p a s s a g e r Y o u   a r e   i n   a   n a r r o w   p a s s a g e .     T h e r e   i s   d a r k n e s s   t o   t h e   w e s t ,   b u t   y o u   c a n   b a r e l y   s e e   a   g l o w i n g   o p e n i n g   t o   t h e   e a s t . 
+eq w e s t 
+eq e a s t 
+and D a r k   p a s s a g e " Y o u   a r e   i n   a   d a r k ,   n a r r o w   p a s s a g e . 
+eq e a s t 
+eq w e s t 
+and D a r k   p a s s a g e " Y o u   a r e   i n   a   d a r k ,   n a r r o w   p a s s a g e . 
+eq e a s t 
+eq w e s t 
+and D a r k   p a s s a g e d Y o u   a r e   i n   a   d a r k ,   n a r r o w   p a s s a g e .     T o   t h e   w e s t ,   y o u   s p o t   s o m e   v e g e t a t i o n   w h e r e   t h e   p a s s a g e   e x p a n d s . 
+eq e a s t 
+eq w e s t 
+gt R u i n s ø Y o u   s t a n d   i n   a   l a r g e   c a v e r n   w i t h   a   h u g e   r u i n   t o   t h e   n o r t h ,   o v e r g r o w n   b y   p l a n t   l i f e .     T h e r e   i s   a   l a r g e   s t o n e   a r c h w a y   t o   t h e   n o r t h   a c t i n g   a s   t h e   d o o r w a y   t o   t h e   r u i n e d   c o m p l e x .     A   c r e v i c e   i n   t h e   r o c k   t o   t h e   e a s t   l e a d s   t o   a n   a l a r m i n g l y   d a r k   p a s s a g e w a y . 
+eq e a s t 
+gt n o r t h 
+gt R u i n s µ Y o u   a r e   i n   t h e   o n c e - o p u l e n t   f o y e r   o f   a   m a s s i v e   r u i n e d   c o m p l e x .     T h e r e   i s   a   d o o r   t o   t h e   s o u t h   l e a d i n g   t o   t h e   o v e r g r o w t h   o u t s i d e   a n d   s t a i r s   t o   t h e   n o r t h   w h i c h   l e a d   i n t o   a   l a r g e r   h a l l . 
+gt n o r t h 
+gt s o u t h 
+gt R u i n s ĥ Y o u   s t a n d   i n   t h e   m a s s i v e   c e n t r a l   h a l l   o f   t h e s e   r u i n s .     T h e   w a l l s   a r e   c r u m b l i n g ,   a n d   v e g e t a t i o n   h a s   c l e a r l y   t a k e n   o v e r .     R o o m s   a r e   a t t a c h e d   i n   a l l   d i r e c t i o n s .     T h e r e   i s   a   s t r a n g e   m o n u m e n t   i n   t h e   c e n t e r   o f   t h e   h a l l   w i t h   c i r c u l a r   s l o t s   a n d   u n u s u a l   s y m b o l s .     I t   r e a d s : 
+mult 
+mult 9   +   2   *   5 ^ 2   +   7 ^ 3   -   3   =   3 9 9 
+gt n o r t h 
+gt s o u t h 
+eq e a s t 
+eq w e s t 
+gt R u i n s § B e c a u s e   i t   h a s   b e e n   s o   w e l l - p r o t e c t e d ,   t h i s   r o o m   h a r d l y   s h o w s   s i g n s   o f   d e c a y .     T h e   w a l l s   a r e   c o v e r e d   i n   e l a b o r a t e   m u r a l s   a n d   d e c o r a t e d   w i t h   p r e c i o u s   m e t a l s   a n d   s t o n e s . 
+gt s o u t h 
+gt R u i n s  Y o u   s t a n d   i n   w h a t   s e e m s   t o   h a v e   o n c e   b e e n   a   d i n i n g   h a l l ;   b r o k e n   t a b l e s   a n d   p o t t e r y   a r e   s c a t t e r e d   e v e r y w h e r e .     A   s t a i r c a s e   h e r e   l e a d s   d o w n . 
+eq d o w n 
+eq w e s t 
+gt R u i n s z T h i s   s e e m s   t o   b e   a   k i t c h e n ;   t h e r e   a r e   b r i c k   s t o v e s   a n d   s h e l v e s   a l o n g   t h e   w a l l .     E v e r y t h i n g   h e r e   h a s   f a l l e n   i n t o   d i s r e p a i r . 
+push u p 
+gt R u i n s ³ Y o u   f i n d   y o u r s e l f   i n   w h a t   w a s   o n c e   t h e   l i v i n g   q u a r t e r s   f o r   t h e   c o m p l e x .     M a n y   s m a l l e r   r o o m s   w h i c h   o n c e   h a d   w a l l s   t o   d i v i d e   t h e m   n o w   l a y   i n   d i s a r r a y .     T h e r e   i s   a   s t a i r c a s e   u p   h e r e . 
+push u p 
+eq e a s t 
+gt R u i n s © T h i s   w a s   l o n g   a g o   a   l a v i s h   t h r o n e   r o o m .     D r i e d - u p   f o u n t a i n s   a n d   c r u m b l i n g   s t a t u e s   l i n e   t h e   w a l l s ,   a n d   t h e   c a r v e d   s t o n e   t h r o n e   i n   t h e   c e n t e r   o f   t h e   r o o m   i s   f a l l i n g   a p a r t . 
+eq d o w n 
+in S y n a c o r   H e a d q u a r t e r s ÿ Y o u   s t a n d   i n   t h e   l o b b y   o f   w h a t   a p p e a r s   t o   b e   a   r e a l l y   f u n   p l a c e   t o   w o r k !     S a d l y ,   t h e r e   d o e s n ' t   s e e m   t o   b e   a n y o n e   a r o u n d   a t   t h e   m o m e n t ,   s o   y o u   m a k e   a   n o t e   t o   c a l l   t h e m   l a t e r .     T h e   b o o k s h e l f   h e r e   l o o k s   l i k e   i t   m i g h t   h a v e   s o m e t h i n g   i n t e r e s t i n g   i n   i t ,   t h o u g h . 
+jt o u t s i d e 
+in S y n a c o r   H e a d q u a r t e r s  I t ' s   a   w a r m ,   s u n n y   d a y !     W h i l e   t h e   b r e e z e   f r o m   L a k e   E r i e   i s   c e r t a i n l y   r e f r e s h i n g ,   y o u   d o n ' t   s e e   a n y t h i n g   h e r e   t h a t   w i l l   h e l p   y o u   w i t h   y o u r   q u e s t . 
+jmp i n s i d e 
+gt B e a c h ª T h i s   i s   a   s a n d y   b e a c h   i n   a   c o v e   o n   s o m e   t r o p i c a l   i s l a n d .     I t   i s   r a i n i n g .     T h e   o c e a n   i s   t o   y o u r   s o u t h ,   a n d   h e a v y   f o l i a g e   i s   t o   y o u r   n o r t h ;   t h e   b e a c h   e x t e n d s   w e s t   a n d   e a s t . 
+eq w e s t 
+eq e a s t 
+gt n o r t h 
+gt B e a c h Ć T h i s   i s   a   s a n d y   b e a c h   i n   a   c o v e   o n   s o m e   t r o p i c a l   i s l a n d .     I t   i s   r a i n i n g .     T o   y o u r   w e s t   i s   a n   e m b a n k m e n t   o f   t h e   c o v e   w h i c h   l o o k s   t o o   s t e e p   t o   c l i m b .     T h e   b e a c h   e x t e n d s   t o   t h e   e a s t ,   a n d   t h e r e   i s   d e n s e   f o l i a g e   t o   t h e   n o r t h .     T h e   o c e a n   t o   t h e   s o u t h   s e e m s   u n i n v i t i n g . 
+eq e a s t 
+gt n o r t h 
+gt B e a c h ò T h i s   i s   a   s a n d y   b e a c h   i n   a   c o v e   o n   s o m e   t r o p i c a l   i s l a n d .     I t   i s   r a i n i n g .     T h e   s t e e p   c o v e   e m b a n k m e n t   t o   y o u r   e a s t   b l o c k s   y o u r   p a t h ,   a n d   t h e   o c e a n   w a t e r s   h e r e   l o o k   u n s a f e .     T h e   b e a c h   e x t e n d s   t o   t h e   w e s t ,   a n d   t h e r e   i s   d e n s e   f o l i a g e   t o   t h e   n o r t h . 
+eq w e s t 
+gt n o r t h 
+rmem T r o p i c a l   I s l a n d Æ T h e   l a r g e   t r e e s   h e r e   s e e m   t o   b e   p r o t e c t i n g   y o u   f r o m   t h e   r a i n .     A s   y o u   p u s h   t h r o u g h   t h e   u n d e r g r o w t h ,   y o u   c a n   h e a r   b i r d s   c h i r p i n g   o v e r h e a d .     T h e r e   i s   a   s t e e p   r o c k   f a c e   t o   y o u r   w e s t   b l o c k i n g   y o u r   p a t h . 
+gt n o r t h 
+gt s o u t h 
+eq e a s t 
+rmem T r o p i c a l   I s l a n d z T h e   e a s t   e m b a n k m e n t   o f   t h e   c o v e   t o w e r s   o v e r   y o u .     I t   p r o d u c e s   a   s m a l l   w a t e r f a l l   h e r e   w h i c h   c a s c a d e s   e x c i t e d l y   i n t o   a   p o o l . 
+gt n o r t h 
+gt s o u t h 
+eq w e s t 
+rmem T r o p i c a l   I s l a n d æ T h e   e m b a n k m e n t   o f   t h e   c o v e   c o m e   t o e g h e r   h e r e   t o   y o u r   e a s t   a n d   w e s t .     B e t w e e n   t h e s e   t a l l   r o c k   f a c e s ,   t h e r e   i s   a   n a r r o w ,   o v e r g r o w n   p a t h   l e a d i n g   n o r t h .     Y o u   h e a r   w a v e s   l a p p i n g   u p   o n   a   b e a c h   t h r o u g h   t h e   d e n s e   v e g e t a t i o n   t o   y o u r   s o u t h . 
+gt n o r t h 
+gt s o u t h 
+rmem T r o p i c a l   I s l a n d ĝ Y o u   a r e   o n   a   n a r r o w   p a t h   b e t w e e n   t w o   s t e e p   r o c k   f a c e s   w h i c h   l o o k   l i k e   t h e y   h a v e   b e e n   h e r e   f o r   t h o u s a n d s   o f   y e a r s .     R a i n   t r i c k l e s   d o w n   t h r o u g h   t h e   v e g e t a t i o n   a n d   m o s s ,   a n d   t h r o u g h   t h e   l e a v e s   y o u   c a n   o c c a s i o n a l l y   s e e   a   s l i v e r   o f   l i g h t   h u n d r e d s   o f   f e e t   a b o v e   y o u   w h e r e   t h e   r o c k   w a l l s   e n d . 
+gt n o r t h 
+gt s o u t h 
+rmem T r o p i c a l   I s l a n d õ T h e   n a r r o w   p a t h   s l o p e s   d o w n w a r d   t o   t h e   n o r t h   a n d   l e a d s   t o   t h e   m o u t h   o f   a   s m a l l   c a v e .     A   s i g n   n e a r b y   r e a d s   " T r e a s u r e   V a u l t   A c c e s s " ,   b u t   d i f f e r e n t   h a n d w r i t i n g   h a s   c r o s s e d   t h i s   o u t   a n d   w r i t t e n   " L a i r   o f   H o r r i b l e   M o n s t e r !     A l l   n o n - p i r a t e s   k e e p   o u t ! " . 
+gt n o r t h 
+gt s o u t h 
+or T r o p i c a l   C a v e Ü Y o u   s t a n d   a t   t h e   e n t r a n c e   t o   a   n a t u r a l   c a v e   w h i c h   l o o k s   l i k e   i t   h a s n ' t   b e e n   v i s i t e d   i n   q u i t e   s o m e   t i m e .     L i g h t   p o u r s   i n   t h r o u g h   t h e   o p e n i n g   t o   t h e   s o u t h ,   w h i l e   f i r e f l i e s   l i g h t   t h e   p a t h   f u r t h e r   i n t o   t h e   c a v e   t o   t h e   n o r t h . 
+gt n o r t h 
+gt s o u t h 
+or T r o p i c a l   C a v e z F i r e f l i e s   s l o w l y   d r i f t   a r o u n d   y o u   a n d   l i g h t   t h e   t u n n e l ,   w h i c h   s e e m s   t o   g e t   b r i g h t e r   t o   t h e   s o u t h ,   b u t   d i m m e r   t o   t h e   n o r t h . 
+gt n o r t h 
+gt s o u t h 
+or T r o p i c a l   C a v e ł T h e   c a v e   i s   a   l i t t l e   w i d e r   h e r e .     Y o u   f i n d   t h e   c o b w e b - e n c r u s t e d   r e m a i n s   o f   a   s m a l l   c a m p ,   a n d   a l t h o u g h   y o u   d o n ' t   s u s p e c t   t h e   b r o k e n   p i e c e s   o f   t a b l e s   a n d   c h a i r s   w i l l   p r o v e   u s e f u l   t o   y o u r   q u e s t ,   t h e   f i r e f l i e s   s e e m   t o   l i k e   u s i n g   t h e   d e b r i s   a s   a   s h e l t e r .     A   p a s s a g e w a y   l e a d s   n o r t h   a n d   s o u t h ,   a n d   t h e r e   i s   a n   a l c o v e   t o   t h e   e a s t . 
+gt n o r t h 
+gt s o u t h 
+eq e a s t 
+in T r o p i c a l   C a v e   A l c o v e £ A t   t h e   b a c k   o f   t h i s   a l c o v e ,   t h e r e   i s   a   s m a l l   t a b l e ,   a   c h a i r ,   a n d   a   b r o k e n   l a n t e r n .     I t   l o o k s   l i k e   t h i s   s p a c e   w a s   u s e d   m u c h   m o r e   r e c e n t l y   t h a n   t h e   c a m p   t o   t h e   w e s t . 
+eq w e s t 
+or T r o p i c a l   C a v e h T h i s   t u n n e l   s l o p e s   d e e p e r   u n d e r g r o u n d   t o   t h e   n o r t h ,   b u t   t h e   f i r e f l i e s   a r e   a l l   a r o u n d   t o   l i g h t   y o u r   p a t h . 
+gt n o r t h 
+gt s o u t h 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' * '   s y m b o l . 
+eq e a s t 
+gt s o u t h 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 8 ' . 
+eq e a s t 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' - '   s y m b o l . 
+eq e a s t 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   D o o r ö Y o u   s t a n d   b e f o r e   t h e   d o o r   t o   t h e   v a u l t ;   i t   h a s   a   l a r g e   ' 3 0 '   c a r v e d   i n t o   i t .     A f f i x e d   t o   t h e   w a l l   n e a r   t h e   d o o r ,   t h e r e   i s   a   r u n n i n g   h o u r g l a s s   w h i c h   n e v e r   s e e m s   t o   r u n   o u t   o f   s a n d . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 1 ' . 
+gt s o u t h 
+eq w e s t 
+gt v a u l t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 4 ' . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' * '   s y m b o l . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 1 1 ' . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' * '   s y m b o l . 
+gt n o r t h 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' + '   s y m b o l . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 4 ' . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' - '   s y m b o l . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 1 8 ' . 
+gt n o r t h 
+gt s o u t h 
+eq w e s t 
+call V a u l t   A n t e c h a m b e r  Y o u   a r e   i n   t h e   a n t e c h a m b e r   t o   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t .     Y o u   n o t i c e   t h e   n u m b e r   ' 2 2 '   i s   c a r v e d   i n t o   t h e   o r b ' s   p e d e s t a l . 
+gt n o r t h 
+eq e a s t 
+gt s o u t h 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' - '   s y m b o l . 
+gt n o r t h 
+eq e a s t 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   t h e   n u m b e r   ' 9 ' . 
+gt n o r t h 
+eq e a s t 
+eq w e s t 
+mult V a u l t   L o c k  Y o u   a r e   i n   a   g r i d   o f   r o o m s   t h a t   c o n t r o l   t h e   d o o r   t o   t h e   v a u l t . 
+mult 
+mult T h e   f l o o r   o f   t h i s   r o o m   i s   a   l a r g e   m o s a i c   d e p i c t i n g   a   ' * '   s y m b o l . 
+gt n o r t h 
+eq w e s t 
+gt V a u l t Ô T h i s   v a u l t   c o n t a i n s   i n c r e d i b l e   r i c h e s !     P i l e s   o f   g o l d   a n d   p l a t i n u m   c o i n s   s u r r o u n d   y o u ,   a n d   t h e   w a l l s   a r e   a d o r n e d   w i t h   t o p a z e s ,   r u b i e s ,   s a p p h i r e s ,   e m e r a l d s ,   o p a l s ,   d i l i t h i u m   c r y s t a l s ,   e l e r i u m - 1 1 5 ,   a n d   u n o b t a i n i u m . 
+gt l e a v e  F u m b l i n g   a r o u n d   i n   t h e   d a r k n e s s c W i t h o u t   a   s o u r c e   o f   l i g h t ,   y o u   h a v e   b e c o m e   h o p e l e s s l y   l o s t   a n d   a r e   f u m b l i n g   a r o u n d   i n   t h e   d a r k n e s s . 
+jt f o r w a r d 
+eq b a c k  F u m b l i n g   a r o u n d   i n   t h e   d a r k n e s s ^ Y o u   c a n ' t   s e e m   t o   f i n d   y o u r   w a y .     H o w e v e r ,   y o u   d o   t h i n k   y o u   h e a r   l o w   g r o w l i n g   i n   t h e   d i s t a n c e . 
+pop r u n 
+mod i n v e s t i g a t e 
+call P a n i c k e d   a n d   l o s t I T h e   g r o w l i n g   i s   g e t t i n g   l o u d e r .     D i d   I   m e n t i o n   t h e r e   a r e   G r u e s   d o w n   h e r e ? 
+pop r u n 
+eq w a i t 
+eq h i d e 
+gt e a t e n 
+halt 
+jmp t a b l e t  T h e   t a b l e t   s e e m s   a p p r o p r i a t e   f o r   u s e   a s   a   w r i t i n g   s u r f a c e   b u t   i s   u n f o r t u n a t e l y   b l a n k .     P e r h a p s   y o u   s h o u l d   U S E   i t   a s   a   w r i t i n g   s u r f a c e . . . 
+or e m p t y   l a n t e r n { T h e   l a n t e r n   s e e m s   t o   h a v e   q u i t e   a   b i t   o f   w e a r   b u t   a p p e a r s   o t h e r w i s e   f u n c t i o n a l .     I t   i s ,   h o w e v e r ,   s a d   t h a t   i t   i s   o u t   o f   o i l . 
+jt l a n t e r n s T h e   l a n t e r n   s e e m s   t o   h a v e   q u i t e   a   b i t   o f   w e a r   b u t   a p p e a r s   o t h e r w i s e   f u n c t i o n a l .     I t   i s   o f f   b u t   h a p p i l y   f u l l   o f   o i l . 
+mod l i t   l a n t e r n W T h e   l a n t e r n   s e e m s   t o   h a v e   q u i t e   a   b i t   o f   w e a r .     I t   i s   l i t   a n d   p r o d u c i n g   a   b r i g h t   l i g h t . 
+pop c a n - T h i s   c a n   i s   f u l l   o f   h i g h - q u a l i t y   l a n t e r n   o i l . 
+jf r e d   c o i n ? T h i s   c o i n   i s   m a d e   o f   a   r e d   m e t a l .     I t   h a s   t w o   d o t s   o n   o n e   s i d e . 
+or c o r r o d e d   c o i n ? T h i s   c o i n   i s   s o m e w h a t   c o r r o d e d .     I t   h a s   a   t r i a n g l e   o n   o n e   s i d e . 
+mult s h i n y   c o i n G T h i s   c o i n   i s   s o m e h o w   s t i l l   q u i t e   s h i n y .     I t   h a s   a   p e n t a g o n   o n   o n e   s i d e . 
+and c o n c a v e   c o i n W T h i s   c o i n   i s   s l i g h t l y   r o u n d e d ,   a l m o s t   l i k e   a   t i n y   b o w l .     I t   h a s   s e v e n   d o t s   o n   o n e   s i d e . 
+add b l u e   c o i n A T h i s   c o i n   i s   m a d e   o f   a   b l u e   m e t a l .     I t   h a s   n i n e   d o t s   o n   o n e   s i d e . 
+mult t e l e p o r t e r H T h i s   s m a l l   d e v i c e   h a s   a   b u t t o n   o n   i t   a n d   r e a d s   " t e l e p o r t e r "   o n   t h e   s i d e . 
+or b u s i n e s s   c a r d @ T h i s   b u s i n e s s   c a r d   h a s   " s y n a c o r . c o m "   p r i n t e d   i n   r e d   o n   o n e   s i d e . 
+pop o r b = T h i s   i s   a   c l e a r   g l a s s   s p h e r e   a b o u t   t h e   s i z e   o f   a   t e n n i s   b a l l . 
+jmp m i r r o r v T h i s   i s   a   r a t h e r   m u n d a n e   h a n d - h e l d   m i r r o r   f r o m   t h e   o t h e r w i s e   m a g n i f i c e n t   v a u l t   r o o m .     W h a t   U S E   c o u l d   i t   p o s s i b l y   h a v e ? 
+and s t r a n g e   b o o k ઇ T h e   c o v e r   o f   t h i s   b o o k   s u b t l y   s w i r l s   w i t h   c o l o r s .     I t   i s   t i t l e d   " A   B r i e f   I n t r o d u c t i o n   t o   I n t e r d i m e n s i o n a l   P h y s i c s " .     I t   r e a d s : 
+mult 
+mult R e c e n t   a d v a n c e s   i n   i n t e r d i m e n s i o n a l   p h y s i c s   h a v e   p r o d u c e d   f a s c i n a t i n g 
+mult p r e d i c t i o n s   a b o u t   t h e   f u n d a m e n t a l s   o f   o u r   u n i v e r s e !     F o r   e x a m p l e , 
+mult i n t e r d i m e n s i o n a l   p h y s i c s   s e e m s   t o   p r e d i c t   t h a t   t h e   u n i v e r s e   i s ,   a t   i t s   r o o t ,   a 
+mult p u r e l y   m a t h e m a t i c a l   c o n s t r u c t ,   a n d   t h a t   a l l   e v e n t s   a r e   c a u s e d   b y   t h e 
+mult i n t e r a c t i o n s   b e t w e e n   e i g h t   p o c k e t s   o f   e n e r g y   c a l l e d   " r e g i s t e r s " . 
+mult F u r t h e r m o r e ,   i t   s e e m s   t h a t   w h i l e   t h e   l o w e r   r e g i s t e r s   p r i m a r i l y   c o n t r o l   m u n d a n e 
+mult t h i n g s   l i k e   s o u n d   a n d   l i g h t ,   t h e   h i g h e s t   r e g i s t e r   ( t h e   s o - c a l l e d   " e i g h t h 
+mult r e g i s t e r " )   i s   u s e d   t o   c o n t r o l   i n t e r d i m e n s i o n a l   e v e n t s   s u c h   a s   t e l e p o r t a t i o n . 
+mult 
+mult A   h y p o t h e t i c a l   s u c h   t e l e p o r t a t i o n   d e v i c e   w o u l d   n e e d   t o   h a v e   h a v e   e x a c t l y   t w o 
+mult d e s t i n a t i o n s .     O n e   d e s t i n a t i o n   w o u l d   b e   u s e d   w h e n   t h e   e i g h t h   r e g i s t e r   i s   a t   i t s 
+mult m i n i m u m   e n e r g y   l e v e l   -   t h i s   w o u l d   b e   t h e   d e f a u l t   o p e r a t i o n   a s s u m i n g   t h e   u s e r 
+mult h a s   n o   w a y   t o   c o n t r o l   t h e   e i g h t h   r e g i s t e r .     I n   t h i s   s i t u a t i o n ,   t h e   t e l e p o r t e r 
+mult s h o u l d   s e n d   t h e   u s e r   t o   a   p r e c o n f i g u r e d   s a f e   l o c a t i o n   a s   a   d e f a u l t . 
+mult 
+mult T h e   s e c o n d   d e s t i n a t i o n ,   h o w e v e r ,   i s   p r e d i c t e d   t o   r e q u i r e   a   v e r y   s p e c i f i c 
+mult e n e r g y   l e v e l   i n   t h e   e i g h t h   r e g i s t e r .     T h e   t e l e p o r t e r   m u s t   t a k e   g r e a t   c a r e   t o 
+mult c o n f i r m   t h a t   t h i s   e n e r g y   l e v e l   i s   e x a c t l y   c o r r e c t   b e f o r e   t e l e p o r t i n g   i t s   u s e r ! 
+mult I f   i t   i s   e v e n   s l i g h t l y   o f f ,   t h e   u s e r   w o u l d   ( p r o b a b l y )   a r r i v e   a t   t h e   c o r r e c t 
+mult l o c a t i o n ,   b u t   w o u l d   b r i e f l y   e x p e r i e n c e   a n o m a l i e s   i n   t h e   f a b r i c   o f   r e a l i t y 
+mult i t s e l f   -   t h i s   i s ,   o f   c o u r s e ,   n o t   r e c o m m e n d e d .     A n y   t e l e p o r t e r   w o u l d   n e e d   t o   t e s t 
+mult t h e   e n e r g y   l e v e l   i n   t h e   e i g h t h   r e g i s t e r   a n d   a b o r t   t e l e p o r t a t i o n   i f   i t   i s   n o t 
+mult e x a c t l y   c o r r e c t . 
+mult 
+mult T h i s   r e q u i r e d   p r e c i s i o n   i m p l i e s   t h a t   t h e   c o n f i r m a t i o n   m e c h a n i s m   w o u l d   b e   v e r y 
+mult c o m p u t a t i o n a l l y   e x p e n s i v e .     W h i l e   t h i s   w o u l d   l i k e l y   n o t   b e   a n   i s s u e   f o r   l a r g e - 
+mult s c a l e   t e l e p o r t e r s ,   a   h y p o t h e t i c a l   h a n d - h e l d   t e l e p o r t e r   w o u l d   t a k e   b i l l i o n s   o f 
+mult y e a r s   t o   c o m p u t e   t h e   r e s u l t   a n d   c o n f i r m   t h a t   t h e   e i g h t h   r e g i s t e r   i s   c o r r e c t . 
+mult 
+mult I f   y o u   f i n d   y o u r s e l f   t r a p p e d   i n   a n   a l t e r n a t e   d i m e n s i o n   w i t h   n o t h i n g   b u t   a 
+mult h a n d - h e l d   t e l e p o r t e r ,   y o u   w i l l   n e e d   t o   e x t r a c t   t h e   c o n f i r m a t i o n   a l g o r i t h m , 
+mult r e i m p l e m e n t   i t   o n   m o r e   p o w e r f u l   h a r d w a r e ,   a n d   o p t i m i z e   i t .     T h i s   s h o u l d ,   a t   t h e 
+mult v e r y   l e a s t ,   a l l o w   y o u   t o   d e t e r m i n e   t h e   v a l u e   o f   t h e   e i g h t h   r e g i s t e r   w h i c h   w o u l d 
+mult h a v e   b e e n   a c c e p t e d   b y   t h e   t e l e p o r t e r ' s   c o n f i r m a t i o n   m e c h a n i s m . 
+mult 
+mult T h e n ,   s e t   t h e   e i g h t h   r e g i s t e r   t o   t h i s   v a l u e ,   a c t i v a t e   t h e   t e l e p o r t e r ,   a n d 
+mult b y p a s s   t h e   c o n f i r m a t i o n   m e c h a n i s m .     I f   t h e   e i g h t h   r e g i s t e r   i s   s e t   c o r r e c t l y ,   n o 
+mult a n o m a l i e s   s h o u l d   b e   e x p e r i e n c e d ,   b u t   b e w a r e   -   i f   i t   i s   s e t   i n c o r r e c t l y ,   t h e 
+mult n o w - b y p a s s e d   c o n f i r m a t i o n   m e c h a n i s m   w i l l   n o t   p r o t e c t   y o u ! 
+mult 
+mult O f   c o u r s e ,   s i n c e   t e l e p o r t a t i o n   i s   i m p o s s i b l e ,   t h i s   i s   a l l   t o t a l l y   r i d i c u l o u s . 
+jt j o u r n a l ິ F i r e f l i e s   w e r e   u s i n g   t h i s   d u s t y   o l d   j o u r n a l   a s   a   r e s t i n g   s p o t   u n t i l   y o u   s c a r e d   t h e m   o f f .     I t   r e a d s : 
+mult 
+mult D a y   1 :   W e   h a v e   r e a c h e d   w h a t   s e e m s   t o   b e   t h e   f i n a l   i n   a   s e r i e s   o f   p u z z l e s   g u a r d i n g   a n   a n c i e n t   t r e a s u r e .     I   s u s p e c t   m o s t   a d v e n t u r e r s   g i v e   u p   l o n g   b e f o r e   t h i s   p o i n t ,   b u t   w e ' r e   s o   c l o s e !     W e   m u s t   p r e s s   o n ! 
+mult 
+mult D a y   1 :   P . S . :   I t ' s   a   g o o d   t h i n g   t h e   i s l a n d   i s   t r o p i c a l .     W e   s h o u l d   h a v e   f o o d   f o r   w e e k s ! 
+mult 
+mult D a y   2 :   T h e   v a u l t   a p p e a r s   t o   b e   s e a l e d   b y   a   m y s t e r i o u s   f o r c e   -   t h e   d o o r   w o n ' t   b u d g e   a n   i n c h .     W e   d o n ' t   h a v e   t h e   r e s o u r c e s   t o   b l o w   i t   o p e n ,   a n d   I   w o u l d n ' t   r i s k   d a m a g i n g   t h e   c o n t e n t s   e v e n   i f   w e   d i d .     W e ' l l   h a v e   t o   f i g u r e   o u t   t h e   l o c k   m e c h a n i s m . 
+mult 
+mult D a y   3 :   T h e   d o o r   t o   t h e   v a u l t   h a s   a   n u m b e r   c a r v e d   i n t o   i t .     E a c h   r o o m   l e a d i n g   u p   t o   t h e   v a u l t   h a s   m o r e   n u m b e r s   o r   s y m b o l s   e m b e d d e d   i n   m o s a i c s   i n   t h e   f l o o r s .     W e   e v e n   f o u n d   a   s t r a n g e   g l a s s   o r b   i n   t h e   a n t e c h a m b e r   o n   a   p e d e s t a l   i t s e l f   l a b e l e d   w i t h   a   n u m b e r .     W h a t   c o u l d   t h e y   m e a n ? 
+mult 
+mult D a y   5 :   W e   f i n a l l y   b u i l t   u p   t h e   c o u r a g e   t o   t o u c h   t h e   s t r a n g e   o r b   i n   t h e   a n t e c h a m b e r .     I t   f l a s h e s   c o l o r s   a s   w e   c a r r y   i t   f r o m   r o o m   t o   r o o m ,   a n d   s o m e t i m e s   t h e   s y m b o l s   i n   t h e   r o o m s   f l a s h   c o l o r s   a s   w e l l .     I t   s i m p l y   e v a p o r a t e s   i f   w e   t r y   t o   l e a v e   w i t h   i t ,   b u t   a n o t h e r   a p p e a r s   o n   t h e   p e d e s t a l   i n   t h e   a n t e c h a m b e r   s h o r t l y   t h e r e a f t e r .     I t   a l s o   s e e m s   t o   d o   t h i s   e v e n   w h e n   w e   r e t u r n   w i t h   i t   t o   t h e   a n t e c h a m b e r   f r o m   t h e   o t h e r   r o o m s . 
+mult 
+mult D a y   8 :   W h e n   t h e   o r b   i s   c a r r i e d   t o   t h e   v a u l t   d o o r ,   t h e   n u m b e r s   o n   t h e   d o o r   f l a s h   b l a c k ,   a n d   t h e n   t h e   o r b   e v a p o r a t e s .     D i d   w e   d o   s o m e t h i n g   w r o n g ?     D o e s n ' t   t h e   d o o r   l i k e   u s ?     W e   a l s o   f o u n d   a   s m a l l   h o u r g l a s s   n e a r   t h e   d o o r ,   e n d l e s s l y   r u n n i n g .     I s   i t   w a i t i n g   f o r   s o m e t h i n g ? 
+mult 
+mult D a y   1 3 :   S o m e   o f   m y   c r e w   s w e a r   t h e   o r b   a c t u a l l y   g e t s   h e a v e r   o r   l i g h t e r   a s   t h e y   w a l k   a r o u n d   w i t h   i t .     I s   t h a t   e v e n   p o s s i b l e ?     T h e y   s a y   t h a t   i f   t h e y   w a l k   t h r o u g h   c e r t a i n   r o o m s   r e p e a t e d l y ,   t h e y   f e e l   i t   g e t t i n g   l i g h t e r   a n d   l i g h t e r ,   b u t   i t   e v e n t u a l l y   j u s t   e v a p o r a t e s   a n d   a   n e w   o n e   a p p e a r s   a s   u s u a l . 
+mult 
+mult D a y   2 1 :   N o w   I   c a n   f e e l   t h e   o r b   c h a n g i n g   w e i g h t   a s   I   w a l k   a r o u n d .     I t   d e p e n d s   o n   t h e   a r e a   -   t h e   c h a n g e   i s   v e r y   s u b t l e   i n   s o m e   p l a c e s ,   b u t   c e r t a i n l y   m o r e   n o t i c e a b l e   i n   o t h e r s ,   e s p e c i a l l y   w h e n   I   w a l k   i n t o   a   r o o m   w i t h   a   l a r g e r   n u m b e r   o r   o u t   o f   a   r o o m   m a r k e d   ' * ' .     P e r h a p s   w e   c a n   a c t u a l l y   c o n t r o l   t h e   w e i g h t   o f   t h i s   m y s t e r i o u s   o r b ? 
+mult 
+mult D a y   3 4 :   O n e   o f   t h e   c r e w m e m b e r s   w a s   w a n d e r i n g   t h e   r o o m s   t o d a y   a n d   c l a i m e d   t h a t   t h e   n u m b e r s   o n   t h e   d o o r   f l a s h e d   w h i t e   a s   h e   a p p r o a c h e d !     H e   s a i d   t h e   d o o r   s t i l l   d i d n ' t   o p e n ,   b u t   h e   n o t i c e d   t h a t   t h e   h o u r g l a s s   h a d   r u n   o u t   a n d   f l a s h e d   b l a c k .     W h e n   w e   w e n t   t o   c h e c k   o n   i t ,   i t   w a s   s t i l l   r u n n i n g   l i k e   i t   a l w a y s   d o e s .     P e r h a p s   h e   i s   g o i n g   m a d ?     I f   n o t ,   w h i c h   d o   w e   n e e d   t o   a p p e a s e :   t h e   d o o r   o r   t h e   h o u r g l a s s ?     B o t h ? 
+mult 
+mult D a y   5 5 :   T h e   f i r e f l i e s   a r e   g e t t i n g   s u s p i c i o u s .     O n e   o f   t h e m   l o o k e d   a t   m e   f u n n y   t o d a y   a n d   t h e n   f l e w   o f f .     I   t h i n k   I   s a w   a n o t h e r   o n e   b l i n k i n g   a   l i t t l e   f a s t e r   t h a n   u s u a l .     O r   w a s   i t   a   l i t t l e   s l o w e r ?     W e   a r e   g e t t i n g   b e t t e r   a t   c o n t r o l l i n g   t h e   w e i g h t   o f   t h e   o r b ,   a n d   w e   t h i n k   t h a t ' s   w h a t   t h e   n u m b e r s   a r e   a l l   a b o u t .     T h e   o r b   s t a r t s   a t   t h e   w e i g h t   l a b e l e d   o n   t h e   p e d e s t a l ,   a n d   g o e s   d o w n   a s   w e   l e a v e   a   r o o m   m a r k e d   ' - ' ,   u p   a s   w e   l e a v e   a   r o o m   m a r k e d   ' + ' ,   a n d   u p   e v e n   m o r e   a s   w e   l e a v e   a   r o o m   m a r k e d   ' * ' .     E n t e r i n g   r o o m s   w i t h   l a r g e r   n u m b e r s   h a s   a   g r e a t e r   e f f e c t . 
+mult 
+mult D a y   8 9 :   E v e r y   o n c e   i n   a   g r e a t   w h i l e ,   o n e   o f   t h e   c r e w m e m b e r s   h a s   t h e   s a m e   s t o r y :   t h a t   t h e   d o o r   f l a s h e s   w h i t e ,   t h e   h o u r g l a s s   h a d   a l r e a d y   r u n   o u t ,   i t   f l a s h e s   b l a c k ,   a n d   t h e   o r b   e v a p o r a t e s .     A r e   w e   t o o   s l o w ?     W e   c a n ' t   s e e m   t o   f i n d   a   w a y   t o   m a k e   t h e   o r b ' s   w e i g h t   m a t c h   w h a t   t h e   d o o r   w a n t s   b e f o r e   t h e   h o u r g l a s s   r u n s   o u t .     I f   o n l y   w e   c o u l d   f i n d   a   s h o r t e r   r o u t e   t h r o u g h   t h e   r o o m s . . . 
+mult 
+mult D a y   1 4 4 :   W e   a r e   a b a n d o n i n g   t h e   m i s s i o n .     N o n e   o f   u s   c a n   w o r k   o u t   t h e   s o l u t i o n   t o   t h e   p u z z l e .     I   w i l l   l e a v e   t h i s   j o u r n a l   h e r e   t o   h e l p   f u t u r e   a d v e n t u r e r s ,   t h o u g h   I   a m   n o t   s u r e   w h a t   h e l p   i t   w i l l   g i v e .     G o o d   l u c k ! 4 a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z  d b q p w u i o l x v 8 W T Y U I O A H X V M 
+push g o 
+eq l o o k 
+eq h e l p 
+pop i n v 
+eq t a k e 
+eq d r o p 
+pop u s e 
+call l o o k 
+and s t r a n g e   b o o k d 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+halt 
+gt g r e e n 
+pop r e d 
+jmp y e l l o w ? A s   y o u   e n t e r   t h e   r o o m ,   t h e   s y m b o l   o n   t h e   f l o o r   b r i e f l y   f l a s h e s   ! .     T h e   o r b   b e g i n s   s u b t l y   g l o w i n g   / A s   y o u   e n t e r   t h e   r o o m ,   t h e   o r b   b r i e f l y   f l a s h e s   @ .     T h e   n u m b e r   o n   t h e   f l o o r   v i b r a t e s   s t r a n g e l y   b e n e a t h   y o u r   f e e t .      T h e   o r b   s e e m s   t o   g e t   h e a v i e r .      T h e   o r b   s e e m s   t o   g e t   l i g h t e r . 
+noop     T h e   o r b   s h a t t e r s ! 
+mult 
+mult   A s   y o u   a p p r o a c h   t h e   v a u l t   d o o r ,   + t h e   n u m b e r   o n   t h e   v a u l t   d o o r   f l a s h e s   b l a c k . )     T h e   o r b   e v a p o r a t e s   o u t   o f   y o u r   h a n d s . 
+mult 
+mult + t h e   n u m b e r   o n   t h e   v a u l t   d o o r   f l a s h e s   w h i t e ! c     T h e   h o u r g l a s s   h a s   a l r e a d y   r u n   o u t .     I t   f l a s h e s   b l a c k   a n d   f l i p s   o v e r ,   r e s t a r t i n g   t h e   f l o w   o f   s a n d .      T h e   h o u r g l a s s   i s   s t i l l   r u n n i n g !     I t   f l a s h e s   w h i t e !     Y o u   h e a r   a   c l i c k   f r o m   t h e   v a u l t   d o o r .     T h e   o r b   e v a p o r a t e s   o u t   o f   h o u r   h a n d s . 
+mult 
+mult 
+jt A s   y o u   
+gt l e a v e 
+gt e n t e r V   t h e   r o o m ,   t h e   o r b   e v a p o r a t e s   o u t   o f   y o u r   h a n d s !     I t   r e m a t e r i a l i z e s   o n   i t s   p e d e s t a l . 
+mult 
+mult  T h e   v a u l t   d o o r   i s   s e a l e d . 
+mult 0 ع ؅ ؈ ٍ ؞ ؈ ؁ ؋ ـ ؙ ؈ ؞ ؙ ٍ ؎ ؂ ؀ ؝ ؁ ؈ ؙ ؄ ؂ ؃ ٍ ؎ ؂ ؉ ؈ ٍ ؄ ؞ ٗ ٍ د ؘ د خ ؟ ؘ ء ج ؛ ؂ ط ج ٧ ٧ 
+push ᣀ ᣈ 
+push ग ऒ 
+set ᤣ 
+set ऍ 
+push ᦹ ᦿ 
+push ज ऍ 
+push ᨫ ᨱ 
+push ड ग 
+push ᫽ ᬄ 
+push द ग 
+push ᮐ ᮙ 
+push फ ड 
+set ᱡ 
+set र 
+push ᵄ ᵉ 
+push ऺ व 
+set ᶻ 
+set र 
+push Ṫ ṯ 
+push र ि 
+pop ἰ ἷ Ἶ 
+pop ऺ ॉ ॄ 
+push ὏ ᾉ 
+push ῕ ῞ 
+push ॻ ि 
+gt ⁯ ⁶ ⁼ ₂ ₇ 
+gt ि ॎ ॓ क़ ढ़ 
+pop ⃔ ⃚ ⃠ 
+pop ॓ ॉ ॎ 
+pop ℭ ℳ ℹ 
+pop ॉ ॎ ॓ 
+eq ⇋ ⇑ ⇗ ⇜ 
+eq १ क़ ॉ ॶ 
+pop ∩ ∯ ∵ 
+pop ढ़ ॢ ॉ 
+eq ⋎ ⋔ ⋚ ⋟ 
+eq ६ ॎ ॓ ॶ 
+pop ⌬ ⌲ ⌷ 
+pop ॓ ॎ १ 
+set ⎅ 
+set ॉ 
+set ⏒ 
+set ॉ 
+push ␟ ␥ 
+push ॓ ॎ 
+push ⒫ ⒰ 
+push ঀ ॄ 
+push ⓥ ⓪ 
+push ॻ অ 
+push ┟ ┤ 
+push ঀ ঊ 
+push ▛ ■ 
+push অ এ 
+push ⚤ ⚩ 
+push ঊ ঔ 
+push ❫ ❱ 
+push ঙ এ 
+eq ⢣ ⢩ ⢯ ⢴ 
+eq ট ঔ ত ম 
+gt ċ ď ē ę ğ 
+gt 
+add 
+push 
+gt 
+jt 
+pop 
+set ⥧ 
+set ঙ 
+push ⧾ ⨃ 
+push ঩ ঙ 
+set ⪉ 
+set ত 
+push ⭆ ⭉ 
+push ঳ ঙ 
+set ⯾ 
+set ম 
+set ⴘ 
+set ঽ 
+set ⷇ 
+set স 
+pop ⹿ ⺄ ⺉ 
+pop ে ৌ ৑ 
+push ⾜ ⾡ 
+push ূ ৑ 
+push ゠ ゥ 
+push ূ ৖ 
+pop ㆂ ㆈ ㆎ 
+pop ৛ ূ ৖ 
+pop ㈞ ㈤ ㈪ 
+pop ৛ ৌ ৑ 
+push ㌦ ㌬ 
+push ৠ ৑ 
+push 㑠 㑦 
+push ৥ ৛ 
+push 㕲 㕸 
+push ৪ ৠ 
+push 㙩 㙯 
+push ৯ ৥ 
+push 㛾 㜄 
+push ৴ ৪ 
+pop 㡛 㡡 㡧 
+pop ৾ ৯ ৹ 
+set 㤥 
+set ৴ 
+push 㦡 㦧 
+push ਿ ৴ 
+push 㨹 㨾 
+push ਈ ਗ 
+pop 㫒 㫗 㫝 
+pop ਍ ਜ ਃ 
+pop 㭮 㭳 㭹 
+pop ਒ ਡ ਈ 
+pop 㲀 㲆 㲋 
+pop ਦ ਍ ੓ 
+pop 㴟 㴥 㴪 
+pop ਃ ਜ ਫ 
+eq 㶼 㷂 㷇 㷍 
+eq ਈ ਡ ਰ ਗ 
+eq 㹡 㹧 㹬 㹲 
+eq ਍ ਦ ਵ ਜ 
+pop 㼃 㼉 㼏 
+pop ਒ ਺ ਡ 
+pop 㾠 㾦 㾫 
+pop ਗ ਰ ਿ 
+eq 䀿 䁅 䁊 䁐 
+eq ਜ ਵ ੄ ਫ 
+eq 䃡 䃧 䃬 䃲 
+eq ਡ ਺ ੉ ਰ 
+pop 䆆 䆌 䆒 
+pop ਦ ੎ ਵ 
+pop 䈺 䉀 䉅 
+pop ਫ ੄ ৾ 
+pop 䋗 䋝 䋢 
+pop ਰ ੉ ਿ 
+pop 䍵 䍻 䎀 
+pop ਵ ੎ ੄ 
+push 䐑 䐗 
+push ਺ ੉ 
+set 䓷 
+set ਒ 
+push 䖁 䖉 
+push ੝ ੝ 
+push 䘍 䘑 
+push ੢ ੢ 
+pop 䙹 䙽 䚂 
+pop ੧ ੧ ੧ 
+halt 
+halt 
+wmem ੬ ੰ ੴ ੸ ੼ ઀ ઄ ઈ ઌ ઐ ઔ ઘ ત ન જ ઠ 
+jt 敗 敚 敟 敤 敨 敭 敲 
+jt ಭ ஔ അ ഢ ൈ ච ෰ 
+call 獬 猱 猎 猇 猒 獆 猂 猉 獆 猟 猉 猓 獆 猂 猉 獙 獬  憯 憙 憃 懖 憅 憓 憓 懖 憘 憙 懖 憅 憃 憕 憞 懖 憟 憂 憓 憛 懘 懼  埮 垰 垌 垍 垊 垃 垗 埄 型 垂 埄 垍 垊 垐 垁 垖 垁 垗 垐 埄 垌 垁 垖 垁 埞 埮 1 冥 凌 冈 冃 冂 凋 冘 凌 写 冂 冈 冉 冞 冟 冘 再 冂 冈 凗 凌 冘 冞 冕 凌 凋 冄 冉 冀 农 凋 凌 冊 冃 冞 凌 内 冂 冟 冘 冞 写 冏 冘 内 冃 冂 冟 凂 処 Ǹ ⦉ ⦊ ⦊ ⦎ ⧯ ⧅ ⧅ ⦼ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⦈ ⦀ ⦗ ⦀ ⦉ ⦜ ⧅ ⧂ ⦉ ⦊ ⦊ ⦎ ⧂ ⧅ ⦑ ⦊ ⧅ ⦀ ⦝ ⦄ ⦈ ⦌ ⦋ ⦀ ⧅ ⦑ ⦍ ⦀ ⧅ ⦗ ⦊ ⦊ ⦈ ⧉ ⧅ ⦊ ⦗ ⧅ ⦜ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⧂ ⦉ ⦊ ⦊ ⦎ ⧅ ⧙ ⦖ ⦐ ⦇ ⦏ ⦀ ⦆ ⦑ ⧛ ⧂ ⧅ ⧍ ⦖ ⦐ ⦆ ⦍ ⧅ ⦄ ⦖ ⧅ ⧂ ⦉ ⦊ ⦊ ⦎ ⧅ ⦆ ⦍ ⦄ ⦌ ⦗ ⧂ ⧌ ⧅ ⦑ ⦊ ⧅ ⦀ ⦝ ⦄ ⦈ ⦌ ⦋ ⦀ ⧅ ⦖ ⦊ ⦈ ⦀ ⦑ ⦍ ⦌ ⦋ ⦂ ⧅ ⦖ ⦕ ⦀ ⦆ ⦌ ⦃ ⦌ ⦆ ⧋ ⧯ ⦂ ⦊ ⧯ ⧅ ⧅ ⦼ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⧂ ⦂ ⦊ ⧅ ⧙ ⦀ ⦝ ⦌ ⦑ ⧛ ⧂ ⧅ ⦑ ⦊ ⧅ ⦑ ⦗ ⦄ ⦓ ⦀ ⦉ ⧅ ⦌ ⦋ ⧅ ⦑ ⦍ ⦄ ⦑ ⧅ ⦁ ⦌ ⦗ ⦀ ⦆ ⦑ ⦌ ⦊ ⦋ ⧅ ⧍ ⦖ ⦐ ⦆ ⦍ ⧅ ⦄ ⦖ ⧅ ⧂ ⦂ ⦊ ⧅ ⦒ ⦀ ⦖ ⦑ ⧂ ⧌ ⧉ ⧅ ⦊ ⦗ ⧅ ⦜ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⦈ ⦀ ⦗ ⦀ ⦉ ⦜ ⧅ ⧂ ⧙ ⦀ ⦝ ⦌ ⦑ ⧛ ⧂ ⧅ ⧍ ⦖ ⦐ ⦆ ⦍ ⧅ ⦄ ⦖ ⧅ ⧂ ⦒ ⦀ ⦖ ⦑ ⧂ ⧌ ⧋ ⧯ ⦌ ⦋ ⦓ ⧯ ⧅ ⧅ ⦱ ⦊ ⧅ ⦖ ⦀ ⦀ ⧅ ⦑ ⦍ ⦀ ⧅ ⦆ ⦊ ⦋ ⦑ ⦀ ⦋ ⦑ ⦖ ⧅ ⦊ ⦃ ⧅ ⦜ ⦊ ⦐ ⦗ ⧅ ⦌ ⦋ ⦓ ⦀ ⦋ ⦑ ⦊ ⦗ ⦜ ⧉ ⧅ ⦈ ⦀ ⦗ ⦀ ⦉ ⦜ ⧅ ⧂ ⦌ ⦋ ⦓ ⧂ ⧋ ⧯ ⦑ ⦄ ⦎ ⦀ ⧯ ⧅ ⧅ ⦼ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⧂ ⦑ ⦄ ⦎ ⦀ ⧅ ⧙ ⦌ ⦑ ⦀ ⦈ ⧛ ⧂ ⧅ ⧍ ⦖ ⦐ ⦆ ⦍ ⧅ ⦄ ⦖ ⧅ ⧂ ⦑ ⦄ ⦎ ⦀ ⧅ ⦉ ⦄ ⦗ ⦂ ⦀ ⧅ ⦗ ⦊ ⦆ ⦎ ⧂ ⧌ ⧋ ⧯ ⦁ ⦗ ⦊ ⦕ ⧯ ⧅ ⧅ ⦱ ⦊ ⧅ ⦁ ⦗ ⦊ ⦕ ⧅ ⦖ ⦊ ⦈ ⦀ ⦑ ⦍ ⦌ ⦋ ⦂ ⧅ ⦌ ⦋ ⧅ ⦜ ⦊ ⦐ ⦗ ⧅ ⦌ ⦋ ⦓ ⦀ ⦋ ⦑ ⦊ ⦗ ⦜ ⧉ ⧅ ⦜ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⧂ ⦁ ⦗ ⦊ ⦕ ⧅ ⧙ ⦌ ⦑ ⦀ ⦈ ⧛ ⧂ ⧋ ⧯ ⦐ ⦖ ⦀ ⧯ ⧅ ⧅ ⦼ ⦊ ⦐ ⧅ ⦈ ⦄ ⦜ ⧅ ⦄ ⦆ ⦑ ⦌ ⦓ ⦄ ⦑ ⦀ ⧅ ⦊ ⦗ ⧅ ⦊ ⦑ ⦍ ⦀ ⦗ ⦒ ⦌ ⦖ ⦀ ⧅ ⦄ ⦕ ⦕ ⦉ ⦜ ⧅ ⦄ ⦋ ⧅ ⦌ ⦑ ⦀ ⦈ ⧅ ⦒ ⦌ ⦑ ⦍ ⧅ ⧂ ⦐ ⦖ ⦀ ⧅ ⧙ ⦌ ⦑ ⦀ ⦈ ⧛ ⧂ ⧋ ⧯ 
+wmem 冣 冕 冏 冈 凚 冓 冔 册 冟 冔 冎 冕 冈 冃 净 凰 
+jt 㲯 㲚 㲐 㲞 㲕 㳕 㳱  䨾 䨈 䨒 䩇 䨔 䨂 䨂 䩇 䨉 䨈 䩇 䨔 䨒 䨄 䨏 䩇 䨎 䨓 䨂 䨊 䩇 䨏 䨂 䨕 䨂 䩉 䩭 
+add 玲 玄 玙 玆 玆 玓 玒 珘 珼 " ⨤ ⨒ ⨈ ⩝ ⨞ ⨜ ⨓ ⩚ ⨉ ⩝ ⨛ ⨔ ⨓ ⨙ ⩝ ⨉ ⨕ ⨜ ⨉ ⩝ ⨔ ⨓ ⩝ ⨄ ⨒ ⨈ ⨏ ⩝ ⨍ ⨜ ⨞ ⨖ ⩓ ⩷ " ឴ គ ម ៍ ណ ឌ ឃ ៊ យ ៍ ឋ ង ឃ ញ ៍ យ ច ឌ យ ៍ ង ឃ ៍ ប គ ម ស ៍ ឝ ឌ ណ ឆ ៃ ៧ ! 㾽 㾋 㾑 㿄 㾅 㾖 㾁 㾊 㿃 㾐 㿄 㾗 㾑 㾖 㾁 㿄 㾌 㾋 㾓 㿄 㾐 㾋 㿄 㾑 㾗 㾁 㿄 㾐 㾌 㾅 㾐 㿊 㿮  व ः ङ ौ ऄ ऍ च उ ौ ऎ उ उ ं ौ उ ऍ घ उ ं ौ ऎ क ौ ऍ ौ ऋ ञ ङ उ ू ० > 䪧 䪌 䪍 䪗 䪁 䪈 䪁 䪀 䫄 䪋 䪊 䫄 䪐 䪌 䪁 䫄 䪓 䪅 䪈 䪈 䫄 䪋 䪂 䫄 䪋 䪊 䪁 䫄 䪋 䪂 䫄 䪐 䪌 䪁 䫄 䪔 䪅 䪗 䪗 䪅 䪃 䪁 䪓 䪅 䪝 䪗 䫈 䫄 䪝 䪋 䪑 䫄 䪗 䪁 䪁 䫞 䫮 䫮 䫄 䫄 䫄 䫄 
+pop ᳰ 宖 㥌 + 㥣 㥣 㤰 㤆 㤜 㥉 㤝 㤈 㤂 㤌 㥉 㤇 㤆 㤝 㤌 㥉 㤆 㤏 㥉 㤝 㤁 㤀 㤚 㥉 㤈 㤇 㤍 㥉 㤂 㤌 㤌 㤙 㥉 㤞 㤈 㤅 㤂 㤀 㤇 㤎 㥇 㥣 㥣 
+noop 嬶 嬊 嬃 嬖 孂 嬆 嬍 嬍 嬐 孂 嬋 嬑 孂 嬎 嬍 嬁 嬉 嬇 嬆 孌 孨  ㆤ ㆒ ㆈ ㇝ ㆛ ㆔ ㆓ ㆙ ㇝ ㆄ ㆒ ㆈ ㆏ ㆎ ㆘ ㆑ ㆛ ㇝ ㆊ ㆏ ㆔ ㆉ ㆔ ㆓ ㆚ ㇝ ㇟ 
+pop Ւ ƺ 䣨 3 ᯗ ᯕ ᮚ ᮛ ᯕ ᮁ ᮝ ᮐ ᯕ ᮁ ᮔ ᮗ ᮙ ᮐ ᮁ ᯛ ᯕ ᯕ ᮥ ᮐ ᮇ ᮝ ᮔ ᮅ ᮆ ᯕ ᮜ ᮁ ᯒ ᮆ ᯕ ᮆ ᮚ ᮘ ᮐ ᯕ ᮞ ᮜ ᮛ ᮑ ᯕ ᮚ ᮓ ᯕ ᮖ ᮚ ᮑ ᮐ ᯊ ᯿ ᯿ 8 稥 稓 稉 穜 稚 稕 稐 稐 穜 稅 稓 稉 税 穜 稐 稝 稒 稈 稙 税 稒 穜 程 稕 稈 稔 穜 稓 稕 稐 穒 穜 穜 稵 稈 穜 稏 稙 稙 稑 稏 穜 稈 稓 穜 稟 稔 稙 稙 税 穜 稉 稌 穝 究 究 : 㢴 㢂 㢘 㣊 㢁 㢁 㣍 㢅 㢌 㢛 㢈 㣍 㢙 㢂 㣍 㢋 㢄 㢃 㢉 㣍 㢞 㢂 㢀 㢈 㢙 㢅 㢄 㢃 㢊 㣍 㢙 㢂 㣍 㢝 㢘 㢙 㣍 㢙 㢅 㢈 㣍 㢂 㢄 㢁 㣍 㢄 㢃 㢙 㢂 㣍 㢋 㢄 㢟 㢞 㢙 㣃 㣧 㣧  由 甇 甝 畈 甄 甁 甏 甀 甜 畈 甑 甇 甝 甚 畈 甄 甉 甆 甜 甍 甚 甆 畆 畢 畢  搢 搔 搎 摛 搟 搔 搎 搈 搞 摛 搂 搔 搎 搉 摛 搗 搚 搕 搏 搞 搉 搕 摕 摱 摱 * 㞰 㞆 㞜 㟎 㞛 㞌 㟉 㞇 㞆 㞝 㟉 㞚 㞜 㞛 㞌 㟉 㞞 㞁 㞈 㞝 㟉 㞝 㞆 㟉 㞍 㞆 㟉 㞞 㞀 㞝 㞁 㟉 㞝 㞁 㞌 㟉 㞊 㞆 㞀 㞇 㟇 㟣 
+not 䮵 䮃 䮙 䯌 䮜 䮀 䮍 䮏 䮉 䯌 䮘 䮄 䮉 䯌  拊 抃 抄 択 抅 拊 択 抂 抏 拊 抆 抏 抌 択 抇 抅 抙 択 拊 抅 抚 抏 抄 拊 抙 抆 抅 択 拄 拠 B 瀬 瀞 灍 瀔 瀂 瀘 灍 瀝 瀁 瀌 瀎 瀈 灍 瀙 瀅 瀈 灍 瀁 瀌 瀞 瀙 灍 瀎 瀂 瀄 瀃 灁 灍 瀙 瀅 瀈 瀔 灍 瀌 瀟 瀈 灍 瀌 瀁 瀁 灍 瀟 瀈 瀁 瀈 瀌 瀞 瀈 瀉 灍 瀂 瀃 瀙 瀂 灍 瀙 瀅 瀈 灍 瀋 瀁 瀂 瀂 瀟 灃 灧 B ᬳ ᬁ ᭒ ᬋ ᬝ ᬇ ᭒ ᬂ ᬞ ᬓ ᬑ ᬗ ᭒ ᬆ ᬚ ᬗ ᭒ ᬞ ᬓ ᬁ ᬆ ᭒ ᬑ ᬝ ᬛ ᬜ ᭞ ᭒ ᬋ ᬝ ᬇ ᭒ ᬚ ᬗ ᬓ ᬀ ᭒ ᬓ ᭒ ᬑ ᬞ ᬛ ᬑ ᬙ ᭒ ᬔ ᬀ ᬝ ᬟ ᭒ ᬆ ᬚ ᬗ ᭒ ᬜ ᬝ ᬀ ᬆ ᬚ ᭒ ᬖ ᬝ ᬝ ᬀ ᭜ ᭸ © ↡ ⇀ ↓ ↔ → ↁ ↎ ↇ ↅ ⇌ ⇀ ↅ ↌ ↅ Ↄ ↔ → ↏ ↎ ↉ Ↄ ⇀ ↖ ↏ ↉ Ↄ ↅ ⇀ ↉ ↓ ⇀ ← → ↏ ↊ ↅ Ↄ ↔ ↅ ↄ ⇀ ↉ ↎ ↔ ↏ ⇀ ↙ ↏ ↕ → ⇀ ↍ ↉ ↎ ↄ ⇚ ⇪ ⇪ ⇀ ⇀ ⇂ ↵ ↎ ↕ ↓ ↕ ↁ ↌ ⇀ ↓ ↅ ↔ ↔ ↉ ↎ ↇ ⇀ ↄ ↅ ↔ ↅ Ↄ ↔ ↅ ↄ ⇁ ⇀ ⇀ ↳ ↔ ↁ → ↔ ↉ ↎ ↇ ⇀ Ↄ ↏ ↎ ↆ ↉ → ↍ ↁ ↔ ↉ ↏ ↎ ⇀ ← → ↏ Ↄ ↅ ↓ ↓ ⇁ ⇀ ⇀ ↥ ↓ ↔ ↉ ↍ ↁ ↔ ↅ ↄ ⇀ ↔ ↉ ↍ ↅ ⇀ ↔ ↏ ⇀ Ↄ ↏ ↍ ← ↌ ↅ ↔ ↉ ↏ ↎ ⇚ ⇀ ⇑ ⇀ ↂ ↉ ↌ ↌ ↉ ↏ ↎ ⇀ ↙ ↅ ↁ → ↓ ⇎ ⇂ ⇪ ⇪ â 墬 墚 墀 壕 墂 墔 增 墐 壕 墀 墅 壕 墚 墛 壕 墔 壕 墆 墔 墛 墑 墌 壕 増 墐 墔 墖 墝 壕 墂 墜 墁 墝 壕 墔 壕 墆 墙 墜 墒 墝 墁 壕 墝 墐 墔 墑 墔 墖 墝 墐 壛 壕 壕 墡 墝 墐 壕 墙 墔 墆 墁 壕 墁 墝 墜 墛 墒 壕 墌 墚 墀 壕 墇 墐 墘 墐 墘 増 墐 墇 壕 墜 墆 壕 墔 墖 墁 墜 境 墔 墁 墜 墛 墒 壕 墁 墝 墔 墁 壕 墁 墐 墙 墐 墅 墚 墇 墁 墐 墇 壛 壛 壛 壕 増 墀 墁 壕 墛 墚 墂 壕 墌 墚 墀 壕 墖 墔 墛 壒 墁 壕 墓 墜 墛 墑 壕 墜 墁 壕 墔 墛 墌 墂 墝 墐 墇 墐 壕 墜 墛 壕 墌 墚 墀 墇 壕 墅 墔 墖 增 壛 壕 壕 墦 墚 墘 墐 墚 墛 墐 壕 墆 墐 墐 墘 墆 壕 墁 墚 壕 墝 墔 境 墐 壕 墑 墇 墔 墂 墛 壕 墔 壕 墘 墐 墆 墆 墔 墒 墐 壕 墜 墛 壕 墁 墝 墐 壕 墆 墔 墛 墑 壕 墝 墐 墇 墐 壏 壿 壿 壕 壕 壕 壕 
+pop ᄋ 淿 䯍  ⵪ ⵪ ⴩ ⴔ ⵀ ⴂ ⴅ ⴇ ⴉ ⴎ ⴓ ⵀ ⴔ ⴏ ⵀ ⴒ ⴁ ⴉ ⴎ ⵎ ⵀ ⵀ ⴴ ⴈ ⴅ ⵀ ⴍ ⴅ ⴓ ⴓ ⴁ ⴇ ⴅ ⵀ ⴗ ⴁ ⴓ ⴈ ⴅ ⴓ ⵀ ⴁ ⴗ ⴁ ⴙ ⵎ ⵀ ⵀ ⴹ ⴏ ⴕ ⵀ ⴔ ⴁ ⴋ ⴅ ⵀ ⴁ ⵀ ⴄ ⴅ ⴅ ⴐ ⵀ ⴂ ⴒ ⴅ ⴁ ⴔ ⴈ ⵀ ⴁ ⴎ ⴄ ⵀ ⴆ ⴅ ⴅ ⴌ ⵀ ⴆ ⴉ ⴒ ⴍ ⴌ ⴙ ⵀ ⴇ ⴒ ⴏ ⴕ ⴎ ⴄ ⴅ ⴄ ⵀ ⴉ ⴎ ⵀ ⴒ ⴅ ⴁ ⴌ ⴉ ⴔ ⴙ ⵀ ⴁ ⴓ ⵀ ⴔ ⴈ ⴅ ⵀ ⴅ ⴆ ⴆ ⴅ ⴃ ⴔ ⴓ ⵀ ⴏ ⴆ ⵀ ⴔ ⴈ ⴅ ⵀ ⴔ ⴅ ⴌ ⴅ ⴐ ⴏ ⴒ ⴔ ⴁ ⴔ ⴉ ⴏ ⴎ ⵀ ⴗ ⴅ ⴁ ⴒ ⵀ ⴏ ⴆ ⴆ ⵎ ⵪ ⵪  洤 浅 洖 洑 洗 洄 洋 洂 洀 浉 浅 洀 洉 洀 洆 洑 洗 洊 洋 洌 洆 浅 洓 洊 洌 洆 洀 浅 洌 洖 浅 洕 洗 洊 洏 洀 洆 洑 洀 洁 浅 洌 洋 洑 洊 浅 洜 洊 洐 洗 浅 洈 洌 洋 洁 浟 浯 浯 浅 浅 浇 洨 洌 洖 洆 洄 洉 洌 洇 洗 洄 洑 洌 洊 洋 浅 洁 洀 洑 洀 洆 洑 洀 洁 浄 浅 浅 洤 洇 洊 洗 洑 洌 洋 洂 浅 洑 洀 洉 洀 洕 洊 洗 洑 洄 洑 洌 洊 洋 浄 浇 浯 浯 洫 洊 洑 洍 洌 洋 洂 浅 洀 洉 洖 洀 浅 洖 洀 洀 洈 洖 浅 洑 洊 浅 洍 洄 洕 洕 洀 洋 测 浯 浯 u ָ ֎ ֔ ׁ ր ւ ֕ ֈ ֗ ր ֕ ք ׁ ֕ ։ ք ׁ ֕ ք ֍ ք ֑ ֎ ֓ ֕ ք ֓ ׀ ׁ ׁ ֠ ֒ ׁ ֘ ֎ ֔ ׁ ֒ ֑ ֈ ֓ ր ֍ ׁ ֕ ։ ֓ ֎ ֔ ֆ ։ ׁ ֕ ֈ ֌ ք ׁ ր ֏ օ ׁ ֒ ֑ ր ւ ք ׍ ׁ ֘ ֎ ֔ ׁ ֕ ։ ֈ ֏ ֊ ׁ ֘ ֎ ֔ ׁ ֒ ք ք ׁ ր ׁ ֑ ր ֕ ֕ ք ֓ ֏ ׁ ֈ ֏ ׁ ֕ ։ ք ׁ ֒ ֕ ր ֓ ֒ ׏ ׏ ׏ ׫ ׫ ׁ ׁ ׁ ׁ 
+pop 桛 Ꮐ ଩ Y ק ק ֬ ֋ ֙ ֈ ֟ ׍ ֌ ׍ ֋ ֈ ֚ ׍ ր ւ ր ֈ փ ֙ ֞ ׁ ׍ ֔ ւ ֘ ׍ ֋ ք փ ։ ׍ ֔ ւ ֘ ֟ ֞ ֈ ց ֋ ׍ ֏ ֌ ֎ ֆ ׍ ւ փ ׍ ֞ ւ ց ք ։ ׍ ֊ ֟ ւ ֘ փ ։ ׍ ֌ փ ։ ׍ ֌ ׍ ց ք ֙ ֙ ց ֈ ׍ ։ ք ֞ ւ ֟ ք ֈ փ ֙ ֈ ։ ׃ ק ק ¸ 戸 戎 戔 扁 戆 戀 戛 戄 扁 戈 戏 戕 戎 扁 戕 戉 戄 扁 戌 戈 戓 戓 戎 戓 才 扁 戀 戏 戅 扁 战 戎 戔 扁 戒 戄 戄 扁 战 戎 戔 戓 戒 戄 戍 戇 扁 戆 戀 戛 戈 戏 戆 扁 戃 戀 戂 戊 扏 扁 扁 戣 戔 戕 扁 或 戀 戈 戕 所 扁 扁 戨 戕 扁 戍 戎 戎 戊 戒 扁 戍 戈 戊 戄 扁 戒 戎 戌 戄 戎 戏 戄 扁 或 戓 戎 戕 戄 扁 戎 戏 扁 战 戎 戔 戓 扁 戇 戀 戂 戄 扁 或 戉 戈 戍 戄 扁 战 戎 戔 扁 或 戄 戓 戄 扁 戔 戏 戂 戎 戏 戒 戂 戈 戎 戔 戒 扁 戎 戏 扁 戕 戉 戄 扁 戃 戄 戀 戂 戉 所 扁 扁 戵 戉 戓 戎 戔 戆 戉 扁 戕 戉 戄 扁 戌 戈 戓 戓 戎 戓 才 扁 战 戎 戔 扁 戒 戄 戄 扁 扃 
+pop ᢙ 〴 䧴 g ៃ េ ធ គ ន ក ព ឍ ង ច េ ឈ ត េ គ ញ ក ន គ ណ ក ឍ េ ណ ត េ ម ណ ប ន េ ជ ណ ន ង ញ ង ក ច ៏ ៫ ៫ អ ណ ត ឆ ន ក ផ ប ឍ ក ផ ឈ ណ ត ធ ៚ េ ម ណ ប េ ញ ក ភ ង េ ន ង ក គ ញ ង ច េ ផ ញ ង េ ង ត ច េ ណ ជ េ ផ ញ ង េ គ ញ ក ឍ ឍ ង ត ឆ ង ៀ ៫ ៫ 

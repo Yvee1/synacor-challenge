@@ -1,5 +1,30 @@
 {-# LANGUAGE TemplateHaskell #-}
-module VM (csv, challenge, VM(..), memory, registers, stack, programCounter, Compute, quit) where
+module VM (
+  -- runners
+  csv,
+  challenge,
+  challenge',
+  
+  -- types
+  VM(..),
+  Compute,
+  
+  -- lenses
+  memory,
+  registers,
+  stack,
+  programCounter,
+
+  -- compute actions
+  start,
+  start',
+  run,
+  quit,
+  runCompute,
+  safeNext,
+  act,
+  getVM
+  ) where
 
 import Data.List.Split
 import Data.List hiding (and, or)
@@ -47,18 +72,29 @@ makeLenses ''VM
 csv :: String -> IO VM
 csv = start . map read . splitOn ","
 
+challenge' :: (Char -> IO ()) -> IO Char -> IO VM
+challenge' pcf gcf = do
+  bs <- B.readFile "challenge.bin"
+  start' pcf gcf $ B.runGet getWord16s bs
+
 challenge :: IO VM
 challenge = do
   bs <- B.readFile "challenge.bin"
   start $ B.runGet getWord16s bs
 
+runCompute :: VM -> Compute a -> IO (Maybe a, VM)
+runCompute vm = flip runStateT vm . runMaybeT
+
 start :: [Word16] -> IO VM
-start ws = do
+start = start' putChar getChar
+
+start' :: (Char -> IO ()) -> IO Char -> [Word16] -> IO VM
+start' pcf gcf ws = do
   let vm = VM { _memory = M.fromDistinctAscList (zip [0..] ws)
               , _registers = V.replicate 8 (Value 0)
               , _stack = []
               , _programCounter = Value 0 }
-  (_, vm') <- flip runStateT vm . runMaybeT $ run
+  (_, vm') <- runCompute vm (run pcf gcf)
   putStrLn ""
   return vm'
 
@@ -77,8 +113,9 @@ getVM = lift get
 putVM :: VM -> Compute ()
 putVM = lift . put
 
-run :: Compute ()
-run = maybe quit (\cmd -> act putChar getChar cmd *> run) =<< safeNext
+run :: (Char -> IO ()) -> IO Char -> Compute ()
+run pcf gcf = 
+  maybe quit (\cmd -> act pcf gcf cmd *> run pcf gcf) =<< safeNext
 
 incrementCounter :: Compute (Maybe ProgramCounter)
 incrementCounter = do

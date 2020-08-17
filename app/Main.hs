@@ -6,5 +6,5 @@ import VM
 main :: IO ()
 main = do
   -- hSetBuffering stdin NoBuffering
-  challenge
+  runUI
   return ()

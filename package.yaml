@@ -16,6 +16,7 @@ dependencies:
 - containers
 - mtl
 - brick
+- vty
 - microlens-platform
 
 library:

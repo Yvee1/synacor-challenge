@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e79088d72621b8c1622eab2d7a876a0a027e3e92ff7255026430a53cb61f618e
+-- hash: 27780a96de1775dab199a4e6e47770847734de858c66160aad013daaca07f42e
 
 name:           synacor-challenge
 version:        0.1.0.0
@@ -40,6 +40,7 @@ library
     , split
     , transformers
     , vector
+    , vty
   default-language: Haskell2010
 
 executable synacor-challenge-exe
@@ -61,4 +62,5 @@ executable synacor-challenge-exe
     , synacor-challenge
     , transformers
     , vector
+    , vty
   default-language: Haskell2010

@@ -1,19 +1,18 @@
-{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE TemplateHaskell, TupleSections #-}
 module VM (
   -- runners
   csv,
-  challenge,
-  challenge',
+  runFile,
+  runFile',
+  debuggedRunFile,
   
   -- types
   VM(..),
   Compute,
-  
-  -- lenses
-  memory,
-  registers,
-  stack,
-  programCounter,
+  Action(..),
+  VMEvent(..),
+  Value(..),
+  Stack,
 
   -- compute actions
   start,
@@ -26,6 +25,7 @@ module VM (
   getVM
   ) where
 
+import Brick.BChan
 import Data.List.Split
 import Data.List hiding (and, or)
 import Data.Bits ((.&.), (.|.))
@@ -49,13 +49,27 @@ import qualified Data.Vector as V
 import qualified Data.IntMap.Strict as M
 import qualified Lens.Micro.Platform as L
 
+newtype Action = Continue Bool
+
+data VMEvent = WriteCharacter Char
+             | ReadyForInput
+             | FinishedInstruction
+             | Debug String [Value] Stack
+
 data VM = VM
   { _memory         :: Memory
   , _registers      :: Vector Value
   , _stack          :: Stack
   , _programCounter :: ProgramCounter
+  , _debug          :: Bool
   }
-  deriving (Show)
+
+mkVM :: [Word16] -> VM
+mkVM ws = VM { _memory = M.fromDistinctAscList (zip [0..] ws)
+             , _registers = V.replicate 8 (Value 0)
+             , _stack = []
+             , _programCounter = Value 0
+             , _debug = False }
 
 type Stack = [Value]
 instance Show Value where
@@ -69,32 +83,40 @@ type ProgramCounter = Value
 type Compute a = MaybeT (StateT VM IO) a
 makeLenses ''VM
 
+debugEveryNSteps = 1
+
 csv :: String -> IO VM
 csv = start . map read . splitOn ","
 
-challenge' :: (Char -> IO ()) -> IO Char -> IO VM
-challenge' pcf gcf = do
-  bs <- B.readFile "challenge.bin"
+debuggedRunFile :: FilePath -> (Char -> IO ()) -> IO (Action, Char) -> MVar Action -> BChan VMEvent -> IO VM
+debuggedRunFile file pcf gcf mvar channel = do
+  bs <- B.readFile file
+  debuggedStart pcf gcf mvar channel $ B.runGet getWord16s bs
+
+runFile' :: FilePath -> (Char -> IO ()) -> IO (Action, Char) -> IO VM
+runFile' file pcf gcf = do
+  bs <- B.readFile file
   start' pcf gcf $ B.runGet getWord16s bs
 
-challenge :: IO VM
-challenge = do
-  bs <- B.readFile "challenge.bin"
+runFile :: FilePath -> IO VM
+runFile file = do
+  bs <- B.readFile file
   start $ B.runGet getWord16s bs
 
 runCompute :: VM -> Compute a -> IO (Maybe a, VM)
 runCompute vm = flip runStateT vm . runMaybeT
 
-start :: [Word16] -> IO VM
-start = start' putChar getChar
+debuggedStart :: (Char -> IO ()) -> IO (Action, Char) -> MVar Action -> BChan VMEvent -> [Word16] -> IO VM
+debuggedStart pcf gcf mvar channel ws = do
+  (_, vm') <- runCompute (mkVM ws) (debuggedRun pcf gcf mvar channel)
+  return vm'
 
-start' :: (Char -> IO ()) -> IO Char -> [Word16] -> IO VM
+start :: [Word16] -> IO VM
+start = start' putChar ((Continue False,) <$> getChar)
+
+start' :: (Char -> IO ()) -> IO (Action, Char) -> [Word16] -> IO VM
 start' pcf gcf ws = do
-  let vm = VM { _memory = M.fromDistinctAscList (zip [0..] ws)
-              , _registers = V.replicate 8 (Value 0)
-              , _stack = []
-              , _programCounter = Value 0 }
-  (_, vm') <- runCompute vm (run pcf gcf)
+  (_, vm') <- runCompute (mkVM ws) (run pcf gcf)
   putStrLn ""
   return vm'
 
@@ -113,9 +135,27 @@ getVM = lift get
 putVM :: VM -> Compute ()
 putVM = lift . put
 
-run :: (Char -> IO ()) -> IO Char -> Compute ()
+run :: (Char -> IO ()) -> IO (Action, Char) -> Compute ()
 run pcf gcf = 
   maybe quit (\cmd -> act pcf gcf cmd *> run pcf gcf) =<< safeNext
+
+debuggedRun :: (Char -> IO ()) -> IO (Action, Char) -> MVar Action -> BChan VMEvent -> Compute ()
+debuggedRun = debuggedRun' 0
+  where debuggedRun' i pcf gcf mvar channel =
+          do mWord <- safeNext
+             case mWord of
+               Nothing  -> quit
+               Just cmd -> 
+                 do act pcf gcf cmd
+                    vm <- getVM
+                    let i' = i `rem` debugEveryNSteps
+                    if Prelude.not (vm^.debug) || i' /= 0
+                      then debuggedRun' (i+1) pcf gcf mvar channel
+                      else do liftIO $ writeBChan channel $ Debug (toString cmd) (V.toList (vm^.registers)) (vm^.stack)
+                              action <- liftIO $ takeMVar mvar
+                              case action of
+                                Continue b -> putVM (vm & debug .~ b)
+                              debuggedRun' (i'+1) pcf gcf mvar channel
 
 incrementCounter :: Compute (Maybe ProgramCounter)
 incrementCounter = do
@@ -170,7 +210,7 @@ opArgs = do
 quit :: Compute ()
 quit = mzero
 
-act :: (Char -> IO ()) -> IO Char -> Word16 -> Compute ()
+act :: (Char -> IO ()) -> IO (Action, Char) -> Word16 -> Compute ()
 act putCharFunction getCharFunction w =
   case w of
     0  -> halt
@@ -322,10 +362,13 @@ out putCharFunction = do
   return ()
 
 -- in is a reserved keyword :/
-in' :: IO Char -> Compute ()
+in' :: IO (Action, Char) -> Compute ()
 in' getCharFunction = do
   i <- nextId
-  input <- liftIO getCharFunction
+  (action, input) <- liftIO getCharFunction
+  case action of
+    Continue b -> do vm <- getVM
+                     putVM vm {_debug = b}
   -- liftIO $ appendFile "input.txt" [input]
   -- case input of
   --   '!' -> debugProgramToFile "test.txt"
@@ -410,28 +453,28 @@ disassembleProgram :: [Word16] -> String
 disassembleProgram = concatMap ((++" ") . toString)
 
 toString :: Word16 -> String
-toString 0 = "\nhalt"
-toString 1 = "\nset"
-toString 2 = "\npush"
-toString 3 = "\npop"
-toString 4 = "\neq"
-toString 5 = "\ngt"
-toString 6 = "\njmp"
-toString 7 = "\njt"
-toString 8 = "\njf"
-toString 9 = "\nadd"
-toString 10 = "\nmult"
-toString 11 = "\nmod"
-toString 12 = "\nand"
-toString 13 = "\nor"
-toString 14 = "\nnot"
-toString 15 = "\nrmem"
-toString 16  = "\nwmem"
-toString 17 = "\ncall"
-toString 18 = "\nret"
-toString 19 = "\nout"
-toString 20 = "\nin"
-toString 21 = "\nnoop"
+toString 0 = "halt"
+toString 1 = "set"
+toString 2 = "push"
+toString 3 = "pop"
+toString 4 = "eq"
+toString 5 = "gt"
+toString 6 = "jmp"
+toString 7 = "jt"
+toString 8 = "jf"
+toString 9 = "add"
+toString 10 = "mult"
+toString 11 = "mod"
+toString 12 = "and"
+toString 13 = "or"
+toString 14 = "not"
+toString 15 = "rmem"
+toString 16  = "wmem"
+toString 17 = "call"
+toString 18 = "ret"
+toString 19 = "out"
+toString 20 = "in"
+toString 21 = "noop"
 toString n = [chr (fromIntegral n)]
 
 debugProgramToFile :: FilePath -> Compute ()

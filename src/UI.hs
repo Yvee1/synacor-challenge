@@ -1,4 +1,4 @@
-{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE TupleSections #-}
 module UI where
 
 import Brick
@@ -14,15 +14,21 @@ import Lens.Micro.Platform
 import Graphics.Vty (mkVty, defaultConfig, defAttr, charFill)
 import qualified Graphics.Vty as V
 
-newtype VMEvent = WriteCharacter Char
-
 data State = State
-  { mvar   :: MVar Char
-  , output :: String
-  , input  :: String }
+  { iMvar       :: MVar (Action, String)
+  , iaMvar      :: MVar ()
+  , aMvar       :: MVar Action
+  , output      :: String
+  , input       :: String
+  , registers   :: [Value]
+  , stack       :: [Value]
+  , instruction :: String
+  , debugging   :: Bool
+  , sendInput   :: Bool }
 
 type Event = VMEvent
 data Name  = Output
+           | Input
   deriving (Eq, Ord, Show)
 
 app :: App State Event Name
@@ -37,12 +43,18 @@ app = App
 drawUI :: State -> [Widget Name]
 drawUI s = 
   [ vCenter $
-    drawOutputBox s
-    <=>
-    drawInputBox s
+    (drawOutputBox (output s)
+     <=>
+     drawInputBox (input s))
+    <+>
+    if debugging s then
+      drawRegisters (registers s)
+      <=>
+      drawInstruction (instruction s)
+    else emptyWidget
   ]
 
-drawOutputBox :: State -> Widget Name
+drawOutputBox :: String -> Widget Name
 drawOutputBox s =
   hCenter $
     vLimit 15 $
@@ -50,7 +62,7 @@ drawOutputBox s =
     borderWithLabel (str "Output") $
     drawVMOutput s
 
-drawInputBox :: State -> Widget Name
+drawInputBox :: String -> Widget Name
 drawInputBox s =
   hCenter $
     vLimit 3 $
@@ -58,45 +70,91 @@ drawInputBox s =
     borderWithLabel (str "Input") $
     drawInput s
 
-drawInput :: State -> Widget Name
-drawInput s = (str . reverse . input) s <+> hFill ' '
+drawInput :: String -> Widget Name
+drawInput s = showCursor Input (Location (length s, 0)) $ (str . reverse) s <+> hFill ' '
 
-drawVMOutput :: State -> Widget Name
-drawVMOutput = viewport Output Vertical . strWrap . reverse . output
+drawVMOutput :: String -> Widget Name
+drawVMOutput = viewport Output Vertical . strWrap . reverse
+
+drawRegisters :: [Value] -> Widget Name
+drawRegisters = vBox . map drawRegister
+  where drawRegister (Value n) = str (show n)
+
+drawInstruction :: String -> Widget Name
+drawInstruction = str
+
+safeTail :: [a] -> [a]
+safeTail [] = []
+safeTail (x:xs) = xs
 
 handleEvent :: State -> BrickEvent Name Event -> EventM Name (Next State)
-handleEvent s@State {output=xs, input=ys} e = case e of
+handleEvent s@State {output=xs, input=ys, aMvar = am, debugging = b} e = case e of
   VtyEvent ev -> case ev of
-    V.EvKey  V.KEsc       []        -> halt s
-    V.EvKey (V.KChar 'c') [V.MCtrl] -> halt s
-    V.EvKey (V.KChar c  ) []        -> vScrollToEnd (viewportScroll Output) *> continue s {input=c:ys}
-    V.EvKey  V.KEnter     []        -> submitInput s *> continue s {input=""}
-    V.EvKey  V.KBS        []        -> continue s {input=tail ys}
-    V.EvKey V.KDown []              -> vScrollBy (viewportScroll Output) 1 *> continue s
-    V.EvKey V.KUp []                -> vScrollBy (viewportScroll Output) (-1) *> continue s
-    _                               -> continue s
+    V.EvKey  V.KEsc       []             -> halt s
+    V.EvKey (V.KChar 'c') [V.MCtrl]      -> halt s
+    V.EvKey (V.KFun 1   ) []             -> continue (s{debugging=not b})
+    V.EvKey  V.KRight     []             -> (if b && not (sendInput s) then liftIO (putMVar am (Continue b)) else pure ()) *> continue s
+    V.EvKey (V.KChar c  ) []             -> vScrollToEnd (viewportScroll Output) *> writeCharacter s c
+    V.EvKey  V.KEnter     []             -> if sendInput s then submitInput s else continue s
+    V.EvKey  V.KBS        []             -> continue s {input=safeTail ys}
+    V.EvKey  V.KDown      []             -> vScrollBy (viewportScroll Output) 1 *> continue s
+    V.EvKey  V.KUp        []             -> vScrollBy (viewportScroll Output) (-1) *> continue s
+    _                                    -> continue s
 
-  AppEvent (WriteCharacter c)       -> vScrollToEnd (viewportScroll Output) *> continue s {output=c:xs}
-  _                                 -> continue s
+  AppEvent (WriteCharacter c)            -> vScrollToEnd (viewportScroll Output) *> continue s {output=c:xs}
+  AppEvent FinishedInstruction           -> liftIO (putMVar am (Continue b)) *> continue s 
+  AppEvent (Debug i rs st)               -> continue s {instruction=i, registers=rs, stack=st, sendInput=False}
+  AppEvent ReadyForInput                 -> continue s {sendInput=True}
+  _                                      -> continue s
 
-submitInput :: State -> EventM Name ()
-submitInput State{input=xs, mvar=m} = liftIO $ forM_ (reverse xs ++ "\n") (putMVar m) 
+writeCharacter :: State -> Char -> EventM Name (Next State)
+writeCharacter s@State{input=ys, iMvar=m, iaMvar=m', debugging=b} c = 
+  if Prelude.not b
+    then continue s {input=c:ys}
+    else liftIO (putMVar m' () *> modifyMVar_ m (\(_, xs) -> pure (Continue b, xs ++ [c]))) *> continue s
+
+submitInput :: State -> EventM Name (Next State)
+submitInput s@State{input=ys, iMvar=m, iaMvar=m', debugging=b} =
+  if Prelude.not b
+    then do liftIO $ modifyMVar_ m (\_ -> pure (Continue b, reverse ('\n':ys)))
+            liftIO $ forM_ ('\n':ys) (const (putMVar m' ()))
+            continue s { input = "" }
+    else liftIO (putMVar m' () *> modifyMVar_ m (\(_, xs) -> pure (Continue b, xs ++ "\n"))) *> continue s
 
 theMap :: AttrMap
 theMap = attrMap defAttr []
 
-runUI :: IO ()
-runUI = do
-  eventChan <- Brick.BChan.newBChan 10
-  m <- newEmptyMVar :: IO (MVar Char)
-  let initialState = ()
+runUI :: FilePath -> IO ()
+runUI file = do
+  eventChan <- newBChan 10
+  inputMVar <- newEmptyMVar :: IO (MVar (Action, String))
+  inputAvailableMVar <- newEmptyMVar :: IO (MVar ())
+
+  putMVar inputMVar (Continue False, "")
+  actionMVar <- newEmptyMVar :: IO (MVar Action)
+  let initialState = State
+                      { iMvar=inputMVar
+                      , iaMvar=inputAvailableMVar
+                      , aMvar=actionMVar
+                      , output=[]
+                      , input=[]
+                      , registers=[]
+                      , stack=[]
+                      , instruction="..."
+                      , debugging=False
+                      , sendInput=False
+                      }
       pcf char = writeBChan eventChan (WriteCharacter char)
-      gcf = takeMVar m
-  forkIO $ challenge' pcf gcf $> ()
+      gcf = writeBChan eventChan ReadyForInput
+         *> takeMVar inputAvailableMVar 
+         *> modifyMVar inputMVar (\(a, s) -> pure ((a, tail s), (a, head s)))
+
+  forkIO $ debuggedRunFile file pcf gcf actionMVar eventChan $> ()
+
   let buildVty = mkVty defaultConfig
   initialVty <- buildVty
   finalState <- customMain initialVty buildVty
-                  (Just eventChan) app (State {mvar=m, output=[], input=[]})
+                  (Just eventChan) app initialState
 
   return ()
 

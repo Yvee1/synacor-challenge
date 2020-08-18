@@ -6,5 +6,6 @@ import VM
 main :: IO ()
 main = do
   -- hSetBuffering stdin NoBuffering
-  runUI
+  runUI "challenge.bin"
+  -- runFile "rr.bin"
   return ()

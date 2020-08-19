@@ -16,7 +16,6 @@ import qualified Graphics.Vty as V
 
 data State = State
   { iMvar       :: MVar (Action, String)
-  , iaMvar      :: MVar ()
   , aMvar       :: MVar Action
   , output      :: String
   , input       :: String
@@ -41,22 +40,22 @@ app = App
   }
 
 drawUI :: State -> [Widget Name]
-drawUI s = 
-  [ vCenter $
+drawUI s =
+  let (lrs, rrs) = splitAt 4 (makeRegisterWidgets (registers s))
+      lrsWidget  = if debugging s then vBox lrs else emptyWidget
+      rrsWidget  = if debugging s then vBox rrs else emptyWidget in
+  [ center $
+    lrsWidget
+    <+>
     (drawOutputBox (output s)
      <=>
      drawInputBox (input s))
     <+>
-    if debugging s then
-      drawRegisters (registers s)
-      <=>
-      drawInstruction (instruction s)
-    else emptyWidget
+    rrsWidget
   ]
 
 drawOutputBox :: String -> Widget Name
 drawOutputBox s =
-  hCenter $
     vLimit 15 $
     hLimit 50 $
     borderWithLabel (str "Output") $
@@ -64,7 +63,6 @@ drawOutputBox s =
 
 drawInputBox :: String -> Widget Name
 drawInputBox s =
-  hCenter $
     vLimit 3 $
     hLimit 50 $
     borderWithLabel (str "Input") $
@@ -76,9 +74,10 @@ drawInput s = showCursor Input (Location (length s, 0)) $ (str . reverse) s <+> 
 drawVMOutput :: String -> Widget Name
 drawVMOutput = viewport Output Vertical . strWrap . reverse
 
-drawRegisters :: [Value] -> Widget Name
-drawRegisters = vBox . map drawRegister
-  where drawRegister (Value n) = str (show n)
+makeRegisterWidgets :: [Value] -> [Widget Name]
+makeRegisterWidgets = zipWith (curry drawRegister) [1..]
+  where drawRegister (i, Value n) = drawBox i $ hLimit 5 (str (show n) <+> hFill ' ')
+        drawBox = borderWithLabel . str . show
 
 drawInstruction :: String -> Widget Name
 drawInstruction = str
@@ -108,18 +107,17 @@ handleEvent s@State {output=xs, input=ys, aMvar = am, debugging = b} e = case e 
   _                                      -> continue s
 
 writeCharacter :: State -> Char -> EventM Name (Next State)
-writeCharacter s@State{input=ys, iMvar=m, iaMvar=m', debugging=b} c = 
+writeCharacter s@State{input=ys, iMvar=m, debugging=b} c = 
   if Prelude.not b
     then continue s {input=c:ys}
-    else liftIO (putMVar m' () *> modifyMVar_ m (\(_, xs) -> pure (Continue b, xs ++ [c]))) *> continue s
+    else liftIO (modifyMVar_ m (\(_, xs) -> pure (Continue b, xs ++ [c]))) *> continue s
 
 submitInput :: State -> EventM Name (Next State)
-submitInput s@State{input=ys, iMvar=m, iaMvar=m', debugging=b} =
+submitInput s@State{input=ys, iMvar=m, debugging=b} =
   if Prelude.not b
     then do liftIO $ modifyMVar_ m (\_ -> pure (Continue b, reverse ('\n':ys)))
-            liftIO $ forM_ ('\n':ys) (const (putMVar m' ()))
             continue s { input = "" }
-    else liftIO (putMVar m' () *> modifyMVar_ m (\(_, xs) -> pure (Continue b, xs ++ "\n"))) *> continue s
+    else liftIO (modifyMVar_ m (\(_, xs) -> pure (Continue b, xs ++ "\n"))) *> continue s
 
 theMap :: AttrMap
 theMap = attrMap defAttr []
@@ -128,13 +126,11 @@ runUI :: FilePath -> IO ()
 runUI file = do
   eventChan <- newBChan 10
   inputMVar <- newEmptyMVar :: IO (MVar (Action, String))
-  inputAvailableMVar <- newEmptyMVar :: IO (MVar ())
 
   putMVar inputMVar (Continue False, "")
   actionMVar <- newEmptyMVar :: IO (MVar Action)
   let initialState = State
                       { iMvar=inputMVar
-                      , iaMvar=inputAvailableMVar
                       , aMvar=actionMVar
                       , output=[]
                       , input=[]
@@ -144,10 +140,18 @@ runUI file = do
                       , debugging=False
                       , sendInput=False
                       }
+      pcf :: Char -> IO ()      
       pcf char = writeBChan eventChan (WriteCharacter char)
+
+      gcf :: IO (Action, Char)
       gcf = writeBChan eventChan ReadyForInput
-         *> takeMVar inputAvailableMVar 
-         *> modifyMVar inputMVar (\(a, s) -> pure ((a, tail s), (a, head s)))
+         *> recurse
+      
+      recurse = do (a, mc) <- modifyMVar inputMVar (\(a, s) -> if not (null s) 
+                                               then pure ((a, tail s), (a, Just (head s)))
+                                               else pure ((a, s), (a, Nothing)))
+                   c <- maybe (snd <$> (threadDelay 500 *> recurse)) pure mc
+                   return (a, c)
 
   forkIO $ debuggedRunFile file pcf gcf actionMVar eventChan $> ()
 
